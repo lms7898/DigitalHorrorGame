@@ -1,0 +1,673 @@
+﻿[2015.10.13-00.06.39:777][  0]Log file open, 10/12/15 20:06:39
+[2015.10.13-00.06.39:777][  0]LogInit:Display: Running engine for game: GDDHorrorGame
+[2015.10.13-00.06.39:777][  0]LogInit:Display: RandInit(-375257717) SRandInit(-375257716).
+[2015.10.13-00.06.39:777][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.13-00.06.39:777][  0]LogStats: Stats thread started at 0.080003
+[2015.10.13-00.06.39:777][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.13-00.06.39:777][  0]LogInit: API Version: 2672455
+[2015.10.13-00.06.39:777][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.13-00.06.39:777][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.13-00.06.39:777][  0]LogInit: Build Configuration: Development
+[2015.10.13-00.06.39:777][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.13-00.06.39:777][  0]LogInit: Command line:  
+[2015.10.13-00.06.39:777][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.13-00.06.39:777][  0]LogInit: Rocket: 1
+[2015.10.13-00.06.39:793][  0]LogInit: Using libcurl 7.41.0
+[2015.10.13-00.06.39:793][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.13-00.06.39:793][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.13-00.06.39:793][  0]LogInit:  - other features:
+[2015.10.13-00.06.39:793][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.13-00.06.39:793][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.13-00.06.39:793][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.13-00.06.39:793][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.13-00.06.39:793][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.13-00.06.39:793][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.13-00.06.39:793][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.13-00.06.39:793][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.13-00.06.39:793][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.13-00.06.39:793][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.13-00.06.39:800][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.13-00.06.39:807][  0]LogInit: Object subsystem initialized
+[2015.10.13-00.06.39:808][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.13-00.06.39:808][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.13-00.06.39:817][  0]LogInit: Computer: LAUREN-PC
+[2015.10.13-00.06.39:817][  0]LogInit: User: Lauren
+[2015.10.13-00.06.39:817][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.13-00.06.39:817][  0]LogInit: High frequency timer resolution =2.338369 MHz
+[2015.10.13-00.06.39:817][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.13-00.06.39:817][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.13-00.06.39:817][  0]LogMemory: Process Physical Memory: 55.32 MB used, 55.32 MB peak
+[2015.10.13-00.06.39:817][  0]LogMemory: Process Virtual Memory: 57.67 MB used, 57.67 MB peak
+[2015.10.13-00.06.39:817][  0]LogMemory: Physical Memory: 6939.43 MB used, 8079.30 MB total
+[2015.10.13-00.06.39:817][  0]LogMemory: Virtual Memory: 338.38 MB used, 8388608.00 MB total
+[2015.10.13-00.06.39:874][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.13-00.06.40:765][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770M (Feature Level 11_0)
+[2015.10.13-00.06.40:765][  0]LogD3D11RHI: Adapter has 3009MB of dedicated video memory, 0MB of dedicated system memory, and 3783MB of shared system memory, 1 output[s]
+[2015.10.13-00.06.40:809][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 770M (Feature Level 11_0)
+[2015.10.13-00.06.40:809][  0]LogD3D11RHI: Adapter has 3009MB of dedicated video memory, 0MB of dedicated system memory, and 3783MB of shared system memory, 1 output[s]
+[2015.10.13-00.06.40:809][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.13-00.06.40:817][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.13-00.06.40:818][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.13-00.06.40:864][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.13-00.06.40:878][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Intermediate/Shaders/WorkingDirectory/9656/).
+[2015.10.13-00.06.40:878][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Intermediate/Shaders/tmp/8FF9C8E449410730EEFA87AD6B57DC42/'.
+[2015.10.13-00.06.40:878][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.13-00.06.49:577][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.13-00.06.49:619][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.13-00.06.49:660][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.13-00.06.49:680][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.13-00.06.49:724][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.13-00.06.49:729][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.13-00.06.49:733][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.13-00.06.49:749][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.13-00.06.49:770][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.13-00.06.49:793][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.13-00.06.49:813][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.13-00.06.49:847][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.13-00.06.49:899][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.13-00.06.49:967][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.13-00.06.49:988][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.13-00.06.50:030][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.13-00.06.50:052][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.13-00.06.50:052][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.13-00.06.50:764][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.13-00.06.57:372][  0]LogDerivedDataCache: Loaded boot cache 6.61s 37MB C:/Users/Lauren/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.13-00.06.57:372][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Lauren/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.13-00.06.57:420][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.13-00.06.57:420][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.13-00.06.57:420][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.13-00.06.57:420][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.13-00.06.58:005][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.13-00.06.58:019][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lauren/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.13-00.07.33:573][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.13-00.07.33:676][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.13-00.07.34:914][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.13-00.07.34:914][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.13-00.07.42:662][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.13-00.08.13:792][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.13-00.08.14:757][  0]LogAssetRegistry: FAssetRegistry took 0.0140 seconds to start up
+[2015.10.13-00.08.18:314][  0]SourceControl: Info Source control is disabled
+[2015.10.13-00.08.18:315][  0]SourceControl: Info Source control is disabled
+[2015.10.13-00.08.18:714][  0]SourceControl: Info Source control is disabled
+[2015.10.13-00.08.18:907][  0]SourceControl: Info Source control is disabled
+[2015.10.13-00.08.20:603][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.13-00.08.20:943][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.13-00.08.20:944][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.13-00.08.21:857][  0]LogEngine: Initializing Engine...
+[2015.10.13-00.08.22:335][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.13-00.08.22:371][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.13-00.08.23:177][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.13-00.08.23:276][  0]LogInit: XAudio2 using 'Speakers (Siberia v2 D3H)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.13-00.08.23:322][  0]LogInit: FAudioDevice initialized.
+[2015.10.13-00.08.23:349][  0]LogDerivedDataCache: Saved boot cache 0.03s 37MB C:/Users/Lauren/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.13-00.08.23:354][  0]LogInit: Texture streaming: Enabled
+[2015.10.13-00.08.23:380][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.13-00.08.23:380][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.13-00.08.23:380][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0dfd459848bd316af10e0286bf53d633|62a07662b49e46228294f7f33306ed31|8f7fcacd-7ea7-4aa9-9d3c-39324467dbc7
+[2015.10.13-00.08.23:392][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.13-00.08.24:629][  0]LogInit: Transaction tracking system initialized
+[2015.10.13-00.08.27:698][  0]BlueprintLog: New page: Editor Load
+[2015.10.13-00.08.36:918][  0]LocalizationService: Info Localization service is disabled
+[2015.10.13-00.08.39:168][  0]LogConsoleResponse:Display: 
+[2015.10.13-00.08.42:177][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/' took 0.02s
+[2015.10.13-00.08.42:177][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.13-00.08.44:343][  0]SourceControl: Info Source control is disabled
+[2015.10.13-00.08.44:343][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.13-00.08.44:344][  0]LightingResults: New page: Lighting Build
+[2015.10.13-00.08.44:347][  0]MapCheck: New page: Map Check
+[2015.10.13-00.08.44:347][  0]LightingResults: New page: Lighting Build
+[2015.10.13-00.08.44:358][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000145BE160
+[2015.10.13-00.08.44:363][  0]LogLinker:Warning: Asset '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.13-00.08.44:365][  0]LogLinker:Warning: Asset '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.13-00.08.44:367][  0]LogLinker:Warning: Asset '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.13-00.08.44:368][  0]LogLinker:Warning: Asset '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.13-00.08.44:369][  0]LogLinker:Warning: Asset '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.13-00.08.44:369][  0]LogLinker:Warning: Asset '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.13-00.08.44:371][  0]LogLinker:Warning: Asset '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.13-00.08.44:372][  0]LogLinker:Warning: Asset '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.13-00.08.45:153][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.13-00.08.45:164][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.13-00.08.45:165][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.13-00.08.45:257][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.205ms to complete.
+[2015.10.13-00.08.45:257][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.914
+[2015.10.13-00.08.45:414][  0]LogCollectionManager: Loaded 0 collections in 0.002471 seconds
+[2015.10.13-00.08.45:454][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Collections/' took 0.01s
+[2015.10.13-00.08.45:454][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Developers/Lauren/Collections/' took 0.01s
+[2015.10.13-00.08.45:454][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Content/Collections/' took 0.01s
+[2015.10.13-00.08.45:454][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 1867 classes and 333 folders.
+[2015.10.13-00.08.45:463][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.13-00.08.45:470][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.13-00.08.45:533][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.13-00.08.45:537][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.10.13-00.08.45:560][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.13-00.08.45:568][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.13-00.08.45:588][  0]LogLoad: Full Startup: 126.38 seconds (BP compile: 0.91 seconds)
+[2015.10.13-00.08.45:977][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.13-00.08.46:111][  0]LogRenderer: Reallocating scene render targets to support 1208x660 (Frame:2).
+[2015.10.13-00.08.47:597][  5]LogAssetRegistry: Asset discovery search completed in 32.8505 seconds
+[2015.10.13-00.08.47:597][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.10.13-00.08.47:597][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2015.10.13-00.09.05:864][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.09.05:864][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.13-00.09.05:888][600]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 12, 2015, 4:09:05 PM)
+[2015.10.13-00.09.05:888][600]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.13-00.09.05:993][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.105127s)
+[2015.10.13-00.09.05:994][600]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.13-00.09.05:994][600]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2015.10.13-00.09.05:994][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.106023s)
+[2015.10.13-00.09.05:994][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.13-00.09.06:330][600]LogInit: XAudio2 using 'Speakers (Siberia v2 D3H)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.13-00.09.06:337][600]LogInit: FAudioDevice initialized.
+[2015.10.13-00.09.06:591][600]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.13-00.09.06:684][600]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.10.12-20.09.06
+[2015.10.13-00.09.06:684][600]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.13-00.09.06:720][600]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.13-00.09.06:752][600]LogWorld: Bringing up level for play took: 0.076180
+[2015.10.13-00.09.06:928][600]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.313
+[2015.10.13-00.09.06:928][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.09.52:679][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.09.52:755][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.09.52:807][311]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003D16700
+[2015.10.13-00.28.12:083][941]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Models\CounterTop\Counter.fbx)
+[2015.10.13-00.28.12:339][941]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.13-00.28.12:339][941]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.13-00.28.12:339][941]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.13-00.28.12:339][941]LogFbx: ItemName: Geometry, ItemCount : 96
+[2015.10.13-00.28.12:339][941]LogFbx: ItemName: Material, ItemCount : 1
+[2015.10.13-00.28.12:339][941]LogFbx: ItemName: Model, ItemCount : 96
+[2015.10.13-00.28.12:394][941]LogFbx: Loading FBX Scene from E:\Models\CounterTop\Counter.fbx
+[2015.10.13-00.28.12:486][941]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.28.24:042][941]LogFbx: Loading FBX Scene from E:\Models\CounterTop\Counter.fbx
+[2015.10.13-00.28.24:079][941]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.28.24:133][941]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/lambert1'
+[2015.10.13-00.28.24:133][941]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/lambert1'
+[2015.10.13-00.28.24:314][941]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2015.10.13-00.28.24:432][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_59_004
+[2015.10.13-00.28.24:607][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_26_003
+[2015.10.13-00.28.24:609][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_012
+[2015.10.13-00.28.24:610][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_012
+[2015.10.13-00.28.24:642][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_011
+[2015.10.13-00.28.24:642][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_011
+[2015.10.13-00.28.24:672][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_121_002
+[2015.10.13-00.28.24:674][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_123_002
+[2015.10.13-00.28.24:676][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_122_002
+[2015.10.13-00.28.24:677][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_119_002
+[2015.10.13-00.28.24:679][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__3_002
+[2015.10.13-00.28.24:680][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_121_001
+[2015.10.13-00.28.24:682][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_123_001
+[2015.10.13-00.28.24:683][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_122_001
+[2015.10.13-00.28.24:685][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_119_001
+[2015.10.13-00.28.24:686][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__3_001
+[2015.10.13-00.28.24:688][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_59_003
+[2015.10.13-00.28.24:690][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_27_003
+[2015.10.13-00.28.24:692][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_58_002
+[2015.10.13-00.28.24:693][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_010
+[2015.10.13-00.28.24:694][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_010
+[2015.10.13-00.28.24:724][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_78_001
+[2015.10.13-00.28.24:728][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_009
+[2015.10.13-00.28.24:729][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_009
+[2015.10.13-00.28.24:758][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_28_003
+[2015.10.13-00.28.24:760][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_95_003
+[2015.10.13-00.28.24:762][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_8_003
+[2015.10.13-00.28.24:763][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_008
+[2015.10.13-00.28.24:763][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_008
+[2015.10.13-00.28.24:793][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_95_002
+[2015.10.13-00.28.24:795][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_26_002
+[2015.10.13-00.28.24:796][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_007
+[2015.10.13-00.28.24:797][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_007
+[2015.10.13-00.28.24:827][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_006
+[2015.10.13-00.28.24:828][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_006
+[2015.10.13-00.28.24:858][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_8_002
+[2015.10.13-00.28.24:859][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_27_002
+[2015.10.13-00.28.24:861][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_005
+[2015.10.13-00.28.24:862][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_005
+[2015.10.13-00.28.24:892][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_016
+[2015.10.13-00.28.24:894][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__008
+[2015.10.13-00.28.24:895][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_016
+[2015.10.13-00.28.24:897][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_015
+[2015.10.13-00.28.24:899][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_015
+[2015.10.13-00.28.24:900][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_014
+[2015.10.13-00.28.24:902][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__007
+[2015.10.13-00.28.24:903][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_014
+[2015.10.13-00.28.24:905][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_013
+[2015.10.13-00.28.24:907][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_013
+[2015.10.13-00.28.24:909][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_59_002
+[2015.10.13-00.28.24:911][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_28_002
+[2015.10.13-00.28.24:913][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_012
+[2015.10.13-00.28.24:914][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__006
+[2015.10.13-00.28.24:916][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_012
+[2015.10.13-00.28.24:918][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_011
+[2015.10.13-00.28.24:920][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_011
+[2015.10.13-00.28.24:922][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_010
+[2015.10.13-00.28.24:923][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__005
+[2015.10.13-00.28.24:925][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_010
+[2015.10.13-00.28.24:926][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_009
+[2015.10.13-00.28.24:928][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_009
+[2015.10.13-00.28.24:930][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_008
+[2015.10.13-00.28.24:931][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__004
+[2015.10.13-00.28.24:933][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_008
+[2015.10.13-00.28.24:934][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_007
+[2015.10.13-00.28.24:936][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_007
+[2015.10.13-00.28.24:938][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_006
+[2015.10.13-00.28.24:939][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__003
+[2015.10.13-00.28.24:942][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_006
+[2015.10.13-00.28.24:943][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_005
+[2015.10.13-00.28.24:945][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_005
+[2015.10.13-00.28.24:946][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_004
+[2015.10.13-00.28.24:948][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__002
+[2015.10.13-00.28.24:949][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_004
+[2015.10.13-00.28.24:951][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_003
+[2015.10.13-00.28.24:953][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_003
+[2015.10.13-00.28.24:955][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_28_001
+[2015.10.13-00.28.24:957][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_58_001
+[2015.10.13-00.28.24:959][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_002
+[2015.10.13-00.28.24:961][941]LogFbx:Warning: Triangulating static mesh d_model:Frente__001
+[2015.10.13-00.28.24:963][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_002
+[2015.10.13-00.28.24:965][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_23_001
+[2015.10.13-00.28.24:966][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_102_001
+[2015.10.13-00.28.24:968][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_59_001
+[2015.10.13-00.28.24:969][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_004
+[2015.10.13-00.28.24:970][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_004
+[2015.10.13-00.28.25:000][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_8_001
+[2015.10.13-00.28.25:002][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_003
+[2015.10.13-00.28.25:002][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_003
+[2015.10.13-00.28.25:033][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_002
+[2015.10.13-00.28.25:034][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_002
+[2015.10.13-00.28.25:067][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_27_001
+[2015.10.13-00.28.25:069][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_26_001
+[2015.10.13-00.28.25:070][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_95_001
+[2015.10.13-00.28.25:072][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_115_001
+[2015.10.13-00.28.25:072][941]LogFbx:Warning: Triangulating static mesh d_model:Componente_17_001
+[2015.10.13-00.28.26:303][941]LogStaticMesh: Building static mesh Counter...
+[2015.10.13-00.28.27:018][941]LogStaticMesh: Built static mesh [0.731229.2s] /Game/ThirdPersonBP/Custom_Props/Counter.Counter
+[2015.10.13-00.28.27:125][941]LogStaticMesh:Warning: Counter has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.13-00.28.27:232][941]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.13-00.28.27:232][941]FBXImport:Warning: Warning Counter has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.13-00.28.33:487][219]LogActorFactory: Actor Factory created Counter
+[2015.10.13-00.28.34:417][271]LogActorFactory: Actor Factory created Counter
+[2015.10.13-00.28.54:731][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Counter)
+[2015.10.13-00.29.30:020][173]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2015.10.13-00.29.44:022][907]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2015.10.13-00.29.52:559][369]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2015.10.13-00.29.55:537][512]LogMaterial: Missing cached shader map for material M_Wood_Walnut, compiling. 
+[2015.10.13-00.30.24:239][385]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Models\CounterTop\TopCounter.fbx)
+[2015.10.13-00.30.24:257][385]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.13-00.30.24:257][385]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.13-00.30.24:257][385]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.13-00.30.24:257][385]LogFbx: ItemName: Geometry, ItemCount : 4
+[2015.10.13-00.30.24:257][385]LogFbx: ItemName: Material, ItemCount : 1
+[2015.10.13-00.30.24:257][385]LogFbx: ItemName: Model, ItemCount : 4
+[2015.10.13-00.30.24:262][385]LogFbx: Loading FBX Scene from E:\Models\CounterTop\TopCounter.fbx
+[2015.10.13-00.30.24:270][385]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.30.30:788][385]LogFbx: Loading FBX Scene from E:\Models\CounterTop\TopCounter.fbx
+[2015.10.13-00.30.30:796][385]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.30.30:799][385]LogFbx:Warning: Triangulating static mesh d_model:Componente_159_001
+[2015.10.13-00.30.30:800][385]LogFbx:Warning: Triangulating static mesh d_model:BC007_1_6_001
+[2015.10.13-00.30.30:802][385]LogFbx:Warning: Triangulating static mesh d_model:BC007_1_1_001
+[2015.10.13-00.30.30:803][385]LogFbx:Warning: Triangulating static mesh d_model:Layer0_001
+[2015.10.13-00.30.30:844][385]LogStaticMesh: Building static mesh TopCounter...
+[2015.10.13-00.30.30:860][385]LogStaticMesh: Built static mesh [0.049901.2s] /Game/ThirdPersonBP/Custom_Props/TopCounter.TopCounter
+[2015.10.13-00.30.30:877][385]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.13-00.30.41:992][850]LogActorFactory: Actor Factory created TopCounter
+[2015.10.13-00.30.42:725][893]LogActorFactory: Actor Factory created TopCounter
+[2015.10.13-00.30.54:385][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (environment)
+[2015.10.13-00.30.55:174][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopCounter)
+[2015.10.13-00.31.25:539][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Counter)
+[2015.10.13-00.31.26:617][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopCounter)
+[2015.10.13-00.31.43:624][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (environment)
+[2015.10.13-00.32.20:859][889]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2015.10.13-00.32.31:407][377]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2015.10.13-00.32.44:475][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopCounter)
+[2015.10.13-00.33.26:577][308]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Models\CounterTop\Handles.fbx)
+[2015.10.13-00.33.26:596][308]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.13-00.33.26:596][308]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.13-00.33.26:596][308]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.13-00.33.26:596][308]LogFbx: ItemName: Geometry, ItemCount : 10
+[2015.10.13-00.33.26:596][308]LogFbx: ItemName: Material, ItemCount : 1
+[2015.10.13-00.33.26:596][308]LogFbx: ItemName: Model, ItemCount : 10
+[2015.10.13-00.33.26:601][308]LogFbx: Loading FBX Scene from E:\Models\CounterTop\Handles.fbx
+[2015.10.13-00.33.26:612][308]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.33.31:258][308]LogFbx: Loading FBX Scene from E:\Models\CounterTop\Handles.fbx
+[2015.10.13-00.33.31:269][308]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.33.31:273][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_108_002
+[2015.10.13-00.33.31:295][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_108_001
+[2015.10.13-00.33.31:319][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_163_008
+[2015.10.13-00.33.31:329][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_163_007
+[2015.10.13-00.33.31:339][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_163_006
+[2015.10.13-00.33.31:349][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_163_005
+[2015.10.13-00.33.31:360][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_163_004
+[2015.10.13-00.33.31:370][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_163_003
+[2015.10.13-00.33.31:380][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_163_002
+[2015.10.13-00.33.31:391][308]LogFbx:Warning: Triangulating static mesh d_model:Componente_163_001
+[2015.10.13-00.33.31:404][308]LogStaticMesh: Building static mesh Handles...
+[2015.10.13-00.33.31:434][308]LogStaticMesh: Built static mesh [0.030484.2s] /Game/ThirdPersonBP/Custom_Props/Handles.Handles
+[2015.10.13-00.33.31:482][308]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.13-00.33.36:259][560]LogActorFactory: Actor Factory created Handles
+[2015.10.13-00.33.36:981][602]LogActorFactory: Actor Factory created Handles
+[2015.10.13-00.34.38:493][ 96]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling. 
+[2015.10.13-00.34.45:066][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (environment)
+[2015.10.13-00.35.00:017][891]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Models\CounterTop\KitchenShelves.fbx)
+[2015.10.13-00.35.00:038][891]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.13-00.35.00:038][891]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.13-00.35.00:038][891]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.13-00.35.00:038][891]LogFbx: ItemName: Geometry, ItemCount : 5
+[2015.10.13-00.35.00:038][891]LogFbx: ItemName: Material, ItemCount : 1
+[2015.10.13-00.35.00:038][891]LogFbx: ItemName: Model, ItemCount : 5
+[2015.10.13-00.35.00:043][891]LogFbx: Loading FBX Scene from E:\Models\CounterTop\KitchenShelves.fbx
+[2015.10.13-00.35.00:051][891]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.35.04:917][891]LogFbx: Loading FBX Scene from E:\Models\CounterTop\KitchenShelves.fbx
+[2015.10.13-00.35.04:927][891]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.35.04:930][891]LogFbx:Warning: Triangulating static mesh d_model:Agrupar_13_001
+[2015.10.13-00.35.04:936][891]LogFbx:Warning: Triangulating static mesh d_model:Componente_12_001
+[2015.10.13-00.35.04:940][891]LogFbx:Warning: Triangulating static mesh d_model:Group_003
+[2015.10.13-00.35.04:943][891]LogFbx:Warning: Triangulating static mesh d_model:Group_002
+[2015.10.13-00.35.04:947][891]LogFbx:Warning: Triangulating static mesh d_model:Group_001
+[2015.10.13-00.35.04:968][891]LogStaticMesh: Building static mesh KitchenShelves...
+[2015.10.13-00.35.04:996][891]LogStaticMesh: Built static mesh [0.043778.2s] /Game/ThirdPersonBP/Custom_Props/KitchenShelves.KitchenShelves
+[2015.10.13-00.35.05:014][891]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.13-00.35.12:493][275]LogActorFactory: Actor Factory created KitchenShelves
+[2015.10.13-00.35.13:169][315]LogActorFactory: Actor Factory created KitchenShelves
+[2015.10.13-00.35.41:374][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.35.41:374][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.13-00.35.41:374][866]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 12, 2015, 4:35:41 PM)
+[2015.10.13-00.35.41:375][866]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.13-00.35.41:496][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121225s)
+[2015.10.13-00.35.41:496][866]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.13-00.35.41:497][866]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2015.10.13-00.35.41:497][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.122164s)
+[2015.10.13-00.35.41:497][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.13-00.35.41:552][866]LogInit: XAudio2 using 'Speakers (Siberia v2 D3H)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.13-00.35.41:559][866]LogInit: FAudioDevice initialized.
+[2015.10.13-00.35.41:592][866]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.13-00.35.41:600][866]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.10.12-20.35.41
+[2015.10.13-00.35.41:600][866]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.13-00.35.41:601][866]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.13-00.35.41:601][866]LogWorld: Bringing up level for play took: 0.007568
+[2015.10.13-00.35.41:611][866]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.987
+[2015.10.13-00.35.41:611][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.35.55:241][683]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.35.55:302][683]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.35.55:317][683]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000121C60C0
+[2015.10.13-00.35.57:204][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopCounter)
+[2015.10.13-00.36.00:652][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handles)
+[2015.10.13-00.36.25:509][556]LogSavePackage: Save=291.207672ms
+[2015.10.13-00.36.25:509][556]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/ThirdPersonExampleMap_Auto17FEC97E74992C84BFAD6DA928DF736D8.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.10.13-00.36.25:525][556]LogSavePackage: Total save time: 793.786611ms
+[2015.10.13-00.36.25:525][556]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2015.10.13-00.36.25:563][556]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.964
+[2015.10.13-00.36.25:563][556]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.964
+[2015.10.13-00.36.25:567][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/Counter] ([1] browsable assets)...
+[2015.10.13-00.36.25:643][556]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Custom_Props/Counter.Counter]
+[2015.10.13-00.36.25:643][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/Counter]
+[2015.10.13-00.36.25:911][556]LogSavePackage: Save=264.838867ms
+[2015.10.13-00.36.25:911][556]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Counter_Auto1383A83B7498E4C5A2591AEA7DC386005.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/Counter_Auto1.uasset'
+[2015.10.13-00.36.25:912][556]LogSavePackage: Total save time: 266.566996ms
+[2015.10.13-00.36.25:912][556]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/Counter_Auto1.uasset
+[2015.10.13-00.36.25:914][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/lambert1] ([1] browsable assets)...
+[2015.10.13-00.36.25:954][556]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Custom_Props/lambert1.lambert1]
+[2015.10.13-00.36.25:954][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/lambert1]
+[2015.10.13-00.36.25:972][556]LogSavePackage: Save=15.181950ms
+[2015.10.13-00.36.25:972][556]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/lambert1_Auto1C5E56BB54711F541314563A2D59D3C4B.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/lambert1_Auto1.uasset'
+[2015.10.13-00.36.25:974][556]LogSavePackage: Total save time: 16.859617ms
+[2015.10.13-00.36.25:974][556]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/lambert1_Auto1.uasset
+[2015.10.13-00.36.25:976][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/TopCounter] ([1] browsable assets)...
+[2015.10.13-00.36.26:018][556]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Custom_Props/TopCounter.TopCounter]
+[2015.10.13-00.36.26:018][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/TopCounter]
+[2015.10.13-00.36.26:033][556]LogSavePackage: Save=11.841160ms
+[2015.10.13-00.36.26:033][556]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/TopCounter_Auto1CF35B6A74F4D9748E67E80AD911B5427.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/TopCounter_Auto1.uasset'
+[2015.10.13-00.36.26:034][556]LogSavePackage: Total save time: 13.397798ms
+[2015.10.13-00.36.26:034][556]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/TopCounter_Auto1.uasset
+[2015.10.13-00.36.26:036][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/Handles] ([1] browsable assets)...
+[2015.10.13-00.36.26:079][556]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Custom_Props/Handles.Handles]
+[2015.10.13-00.36.26:079][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/Handles]
+[2015.10.13-00.36.26:095][556]LogSavePackage: Save=12.987257ms
+[2015.10.13-00.36.26:095][556]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Handles_Auto184A6BEF84F23F80869C266B44B4D794B.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/Handles_Auto1.uasset'
+[2015.10.13-00.36.26:096][556]LogSavePackage: Total save time: 14.694430ms
+[2015.10.13-00.36.26:096][556]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/Handles_Auto1.uasset
+[2015.10.13-00.36.26:099][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/KitchenShelves] ([1] browsable assets)...
+[2015.10.13-00.36.26:141][556]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Custom_Props/KitchenShelves.KitchenShelves]
+[2015.10.13-00.36.26:141][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/KitchenShelves]
+[2015.10.13-00.36.26:269][556]LogSavePackage: Save=13.741630ms
+[2015.10.13-00.36.26:269][556]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/KitchenShelves_Auto12843842F4AD3C718236A5D83EF66C4C6.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/KitchenShelves_Auto1.uasset'
+[2015.10.13-00.36.26:270][556]LogSavePackage: Total save time: 15.142180ms
+[2015.10.13-00.36.26:270][556]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/KitchenShelves_Auto1.uasset
+[2015.10.13-00.36.26:270][556]LogFileHelpers: Auto-saving content packages took 0.706
+[2015.10.13-00.41.16:352][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopCounter)
+[2015.10.13-00.41.18:300][656]Cmd: DELETE
+[2015.10.13-00.41.18:300][656]Cmd: ACTOR DELETE
+[2015.10.13-00.41.18:529][656]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.13-00.41.18:541][656]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.10.13-00.41.32:627][ 36]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\Models\CounterTop\TopCounter.fbx)
+[2015.10.13-00.41.32:647][ 36]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.13-00.41.32:647][ 36]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.13-00.41.32:647][ 36]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.13-00.41.32:647][ 36]LogFbx: ItemName: Geometry, ItemCount : 4
+[2015.10.13-00.41.32:647][ 36]LogFbx: ItemName: Material, ItemCount : 1
+[2015.10.13-00.41.32:648][ 36]LogFbx: ItemName: Model, ItemCount : 4
+[2015.10.13-00.41.32:654][ 36]LogFbx: Loading FBX Scene from E:\Models\CounterTop\TopCounter.fbx
+[2015.10.13-00.41.32:662][ 36]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.41.38:015][ 36]LogFbx: Loading FBX Scene from E:\Models\CounterTop\TopCounter.fbx
+[2015.10.13-00.41.38:024][ 36]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-00.41.38:026][ 36]LogFbx:Warning: Triangulating static mesh d_model:Componente_159_001
+[2015.10.13-00.41.38:028][ 36]LogFbx:Warning: Triangulating static mesh d_model:BC007_1_6_001
+[2015.10.13-00.41.38:029][ 36]LogFbx:Warning: Triangulating static mesh d_model:BC007_1_1_001
+[2015.10.13-00.41.38:031][ 36]LogFbx:Warning: Triangulating static mesh d_model:Layer0_001
+[2015.10.13-00.41.38:038][ 36]LogStaticMesh: Building static mesh TopCounter...
+[2015.10.13-00.41.38:048][ 36]LogStaticMesh: Built static mesh [0.010165.2s] /Game/ThirdPersonBP/Custom_Props/TopCounter.TopCounter
+[2015.10.13-00.41.38:095][ 36]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.13-00.41.41:698][210]LogActorFactory: Actor Factory created TopCounter
+[2015.10.13-00.41.42:222][241]LogActorFactory: Actor Factory created TopCounter
+[2015.10.13-00.41.49:644][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopCounter)
+[2015.10.13-00.42.56:779][618]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.42.56:780][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.13-00.42.56:780][618]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 12, 2015, 4:42:56 PM)
+[2015.10.13-00.42.56:780][618]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.13-00.42.56:803][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023685s)
+[2015.10.13-00.42.56:805][618]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.13-00.42.56:805][618]LogPlayLevel: PIE: World Init took: (0.001443s)
+[2015.10.13-00.42.56:805][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025458s)
+[2015.10.13-00.42.56:828][618]LogInit: XAudio2 using 'Speakers (Siberia v2 D3H)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.13-00.42.56:835][618]LogInit: FAudioDevice initialized.
+[2015.10.13-00.42.56:867][618]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.13-00.42.56:875][618]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.10.12-20.42.56
+[2015.10.13-00.42.56:875][618]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.13-00.42.56:875][618]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.13-00.42.56:876][618]LogWorld: Bringing up level for play took: 0.007550
+[2015.10.13-00.42.56:877][618]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.247
+[2015.10.13-00.42.56:877][618]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.43.07:786][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.43.07:844][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-00.43.07:858][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022151260
+[2015.10.13-00.43.16:665][622]LogMaterial: Missing cached shader map for material M_Rock_Slate, compiling. 
+[2015.10.13-00.43.25:928][ 58]LogMaterial: Missing cached shader map for material M_Concrete_Poured, compiling. 
+[2015.10.13-00.46.38:604][606]LogSavePackage: Save=81.654350ms
+[2015.10.13-00.46.38:604][606]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/ThirdPersonExampleMap_Auto2E6457BFE443E0A58130FF5B7B6843B42.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2015.10.13-00.46.38:606][606]LogSavePackage: Total save time: 109.359983ms
+[2015.10.13-00.46.38:606][606]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2015.10.13-00.46.38:613][606]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.140
+[2015.10.13-00.46.38:614][606]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.140
+[2015.10.13-00.46.38:620][606]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/TopCounter] ([1] browsable assets)...
+[2015.10.13-00.46.38:661][606]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Custom_Props/TopCounter.TopCounter]
+[2015.10.13-00.46.38:661][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/TopCounter]
+[2015.10.13-00.46.38:678][606]LogSavePackage: Save=13.694588ms
+[2015.10.13-00.46.38:678][606]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/TopCounter_Auto29EDFA62D4DC754E073693BBE684CE3E5.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/TopCounter_Auto2.uasset'
+[2015.10.13-00.46.38:679][606]LogSavePackage: Total save time: 15.646376ms
+[2015.10.13-00.46.38:679][606]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/TopCounter_Auto2.uasset
+[2015.10.13-00.46.38:679][606]LogFileHelpers: Auto-saving content packages took 0.064
+[2015.10.13-01.13.45:969][818]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX\chair.FBX)
+[2015.10.13-01.13.46:026][818]LogFbx: ItemName: Model, ItemCount : 2
+[2015.10.13-01.13.46:026][818]LogFbx: ItemName: Material, ItemCount : 2
+[2015.10.13-01.13.46:026][818]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.10.13-01.13.46:026][818]LogFbx: ItemName: Video, ItemCount : 2
+[2015.10.13-01.13.46:026][818]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2015.10.13-01.13.46:026][818]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.13-01.13.46:031][818]LogFbx: Loading FBX Scene from C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX\chair.FBX
+[2015.10.13-01.13.46:270][818]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-01.13.56:764][818]LogFbx: Loading FBX Scene from C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX\chair.FBX
+[2015.10.13-01.13.56:983][818]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-01.13.56:988][818]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/fabric'
+[2015.10.13-01.13.56:989][818]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/fabric'
+[2015.10.13-01.13.57:006][818]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/mpm_vol_07_p24_fabric_diff'
+[2015.10.13-01.13.57:006][818]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/mpm_vol_07_p24_fabric_diff'
+[2015.10.13-01.13.57:006][818]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/ThirdPersonBP/Custom_Props/mpm_vol_07_p24_fabric_diff.mpm_vol_07_p24_fabric_diff'
+[2015.10.13-01.13.57:006][818]LogStreaming:Warning: Failed to read file 'mpm_vol.07_p24_fabric_diff.jpg' error.
+[2015.10.13-01.13.57:006][818]LogStreaming:Warning: Failed to read file 'C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX/D:\Program Files\Autodesk\3ds Max 2012\mpm_vol.07_p24_fabric_diff.jpg' error.
+[2015.10.13-01.13.57:006][818]LogStreaming:Warning: Failed to read file 'C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX/mpm_vol.07_p24_fabric_diff.jpg' error.
+[2015.10.13-01.13.57:006][818]LogFbxMaterialImport:Warning: Unable to find TEXTure file mpm_vol.07_p24_fabric_diff.jpg. Tried:
+ - mpm_vol.07_p24_fabric_diff.jpg
+ - C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX/D:\Program Files\Autodesk\3ds Max 2012\mpm_vol.07_p24_fabric_diff.jpg
+ - C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX/mpm_vol.07_p24_fabric_diff.jpg
+[2015.10.13-01.13.57:017][818]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/mpm_vol_07_p24_fabric_bump'
+[2015.10.13-01.13.57:017][818]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/mpm_vol_07_p24_fabric_bump'
+[2015.10.13-01.13.57:017][818]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/ThirdPersonBP/Custom_Props/mpm_vol_07_p24_fabric_bump.mpm_vol_07_p24_fabric_bump'
+[2015.10.13-01.13.57:017][818]LogStreaming:Warning: Failed to read file 'mpm_vol.07_p24_fabric_bump.jpg' error.
+[2015.10.13-01.13.57:017][818]LogStreaming:Warning: Failed to read file 'C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX/D:\Program Files\Autodesk\3ds Max 2012\mpm_vol.07_p24_fabric_bump.jpg' error.
+[2015.10.13-01.13.57:017][818]LogStreaming:Warning: Failed to read file 'C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX/mpm_vol.07_p24_fabric_bump.jpg' error.
+[2015.10.13-01.13.57:017][818]LogFbxMaterialImport:Warning: Unable to find TEXTure file mpm_vol.07_p24_fabric_bump.jpg. Tried:
+ - mpm_vol.07_p24_fabric_bump.jpg
+ - C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX/D:\Program Files\Autodesk\3ds Max 2012\mpm_vol.07_p24_fabric_bump.jpg
+ - C:\Users\Lauren\Downloads\24_Ligne_Roset_Citta_FBX/mpm_vol.07_p24_fabric_bump.jpg
+[2015.10.13-01.13.57:035][818]LogMaterial: Missing cached shader map for material fabric, compiling. 
+[2015.10.13-01.13.57:042][818]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/wood'
+[2015.10.13-01.13.57:042][818]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/wood'
+[2015.10.13-01.13.57:049][818]LogMaterial: Missing cached shader map for material wood, compiling. 
+[2015.10.13-01.13.57:363][818]LogStaticMesh: Building static mesh chair...
+[2015.10.13-01.13.59:437][818]LogStaticMesh: Built static mesh [2.222291.2s] /Game/ThirdPersonBP/Custom_Props/chair.chair
+[2015.10.13-01.14.17:901][741]LogActorFactory: Actor Factory created chair
+[2015.10.13-01.14.18:718][789]LogActorFactory: Actor Factory created chair
+[2015.10.13-01.14.39:802][ 34]PIE:Warning: Warning Scale ''X=0.188 Y=0.000 Z=0.188'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.chair_19.StaticMeshComponent0 chair'.
+[2015.10.13-01.14.39:802][ 34]PIE:Warning: Warning Scale ''X=0.188 Y=0.000 Z=0.188'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.chair_19.StaticMeshComponent0 chair'.
+[2015.10.13-01.14.40:081][ 51]PIE:Warning: Warning Scale ''X=0.188 Y=0.000 Z=0.188'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.chair_19.StaticMeshComponent0 chair'.
+[2015.10.13-01.14.40:081][ 51]PIE:Warning: Warning Scale ''X=0.188 Y=0.000 Z=0.188'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.chair_19.StaticMeshComponent0 chair'.
+[2015.10.13-01.15.05:755][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair)
+[2015.10.13-01.15.59:639][494]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2015.10.13-01.16.26:793][ 47]LogSavePackage: Save=75.747238ms
+[2015.10.13-01.16.26:793][ 47]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/ThirdPersonExampleMap_Auto381CAB96F401375C34FCA3E8D48A0B952.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2015.10.13-01.16.26:797][ 47]LogSavePackage: Total save time: 195.063736ms
+[2015.10.13-01.16.26:797][ 47]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2015.10.13-01.16.26:804][ 47]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.223
+[2015.10.13-01.16.26:804][ 47]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.223
+[2015.10.13-01.16.26:812][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/chair] ([1] browsable assets)...
+[2015.10.13-01.16.26:854][ 47]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Custom_Props/chair.chair]
+[2015.10.13-01.16.26:854][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/chair]
+[2015.10.13-01.16.26:871][ 47]LogSavePackage: Save=15.030134ms
+[2015.10.13-01.16.26:871][ 47]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/chair_Auto3AD0B96BF405C2F9275E9D5B3635E6768.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/chair_Auto3.uasset'
+[2015.10.13-01.16.26:873][ 47]LogSavePackage: Total save time: 16.467459ms
+[2015.10.13-01.16.26:873][ 47]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/chair_Auto3.uasset
+[2015.10.13-01.16.26:875][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/fabric] ([1] browsable assets)...
+[2015.10.13-01.16.26:912][ 47]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Custom_Props/fabric.fabric]
+[2015.10.13-01.16.26:912][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/fabric]
+[2015.10.13-01.16.26:928][ 47]LogSavePackage: Save=13.357173ms
+[2015.10.13-01.16.26:929][ 47]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/fabric_Auto3E89B348746A2E33CBF45AE803DD09922.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/fabric_Auto3.uasset'
+[2015.10.13-01.16.26:930][ 47]LogSavePackage: Total save time: 15.350442ms
+[2015.10.13-01.16.26:930][ 47]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/fabric_Auto3.uasset
+[2015.10.13-01.16.26:933][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/wood] ([1] browsable assets)...
+[2015.10.13-01.16.26:976][ 47]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Custom_Props/wood.wood]
+[2015.10.13-01.16.26:976][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/wood]
+[2015.10.13-01.16.26:993][ 47]LogSavePackage: Save=14.064932ms
+[2015.10.13-01.16.26:993][ 47]LogSavePackage: Moving '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/wood_Auto3C20059754C6FEC78F62F8AB49C85337A.tmp' to '../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/wood_Auto3.uasset'
+[2015.10.13-01.16.26:994][ 47]LogSavePackage: Total save time: 15.825987ms
+[2015.10.13-01.16.26:994][ 47]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Lauren/Documents/GitHub/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/wood_Auto3.uasset
+[2015.10.13-01.16.26:994][ 47]LogFileHelpers: Auto-saving content packages took 0.185
+[2015.10.13-01.21.53:319][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair)
+[2015.10.13-01.21.53:994][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair)
+[2015.10.13-01.24.09:826][360]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Lauren\Downloads\DB_Apps&Tech_04_13_FBX\Stove.FBX)
+[2015.10.13-01.24.09:833][360]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.13-01.24.09:833][360]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.13-01.24.09:833][360]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.13-01.24.09:833][360]LogFbx: ItemName: Model, ItemCount : 1
+[2015.10.13-01.24.09:833][360]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.10.13-01.24.09:833][360]LogFbx: ItemName: Material, ItemCount : 10
+[2015.10.13-01.24.09:833][360]LogFbx: ItemName: Texture, ItemCount : 4
+[2015.10.13-01.24.09:833][360]LogFbx: ItemName: Video, ItemCount : 4
+[2015.10.13-01.24.09:838][360]LogFbx: Loading FBX Scene from C:\Users\Lauren\Downloads\DB_Apps&Tech_04_13_FBX\Stove.FBX
+[2015.10.13-01.24.09:875][360]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-01.24.13:898][360]LogFbx: Loading FBX Scene from C:\Users\Lauren\Downloads\DB_Apps&Tech_04_13_FBX\Stove.FBX
+[2015.10.13-01.24.13:936][360]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.13-01.24.13:941][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_02'
+[2015.10.13-01.24.13:942][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_02'
+[2015.10.13-01.24.13:955][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_02, compiling. 
+[2015.10.13-01.24.13:962][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_03'
+[2015.10.13-01.24.13:962][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_03'
+[2015.10.13-01.24.13:966][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_01'
+[2015.10.13-01.24.13:967][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_01'
+[2015.10.13-01.24.13:967][360]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_01.DB_Apps_Tech_04_13_01'
+[2015.10.13-01.24.13:967][360]LogStreaming:Warning: Failed to read file 'DB_Apps&Tech_04_13_01.png' error.
+[2015.10.13-01.24.13:967][360]LogStreaming:Warning: Failed to read file 'C:\Users\Lauren\Downloads\DB_Apps&Tech_04_13_FBX/..\DB_Apps&Tech_04_13\DB_Apps&Tech_04_13_01.png' error.
+[2015.10.13-01.24.14:016][360]LogTexture:Display: Building textures: DB_Apps_Tech_04_13_01 (BGRA8)
+[2015.10.13-01.24.14:052][360]LogStreaming:Warning: Failed to read file 'DB_Apps&Tech_04_13_01.png' error.
+[2015.10.13-01.24.14:052][360]LogStreaming:Warning: Failed to read file 'C:\Users\Lauren\Downloads\DB_Apps&Tech_04_13_FBX/..\DB_Apps&Tech_04_13\DB_Apps&Tech_04_13_01.png' error.
+[2015.10.13-01.24.14:075][360]LogTexture:Display: Building textures: DB_Apps_Tech_04_13_01 (BGRA8)
+[2015.10.13-01.24.14:088][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_03, compiling. 
+[2015.10.13-01.24.14:098][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_04'
+[2015.10.13-01.24.14:098][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_04'
+[2015.10.13-01.24.14:108][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_04, compiling. 
+[2015.10.13-01.24.14:120][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_05'
+[2015.10.13-01.24.14:120][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_05'
+[2015.10.13-01.24.14:130][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_05, compiling. 
+[2015.10.13-01.24.14:141][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_06'
+[2015.10.13-01.24.14:141][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_06'
+[2015.10.13-01.24.14:150][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_06, compiling. 
+[2015.10.13-01.24.14:161][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_07'
+[2015.10.13-01.24.14:161][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_07'
+[2015.10.13-01.24.14:188][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_07, compiling. 
+[2015.10.13-01.24.14:197][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_08'
+[2015.10.13-01.24.14:197][360]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_08'
+[2015.10.13-01.24.14:202][360]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_02.DB_Apps_Tech_04_13_02'
+[2015.10.13-01.24.14:202][360]LogStreaming:Warning: Failed to read file 'DB_Apps&Tech_04_13_02.png' error.
+[2015.10.13-01.24.14:202][360]LogStreaming:Warning: Failed to read file 'C:\Users\Lauren\Downloads\DB_Apps&Tech_04_13_FBX/..\DB_Apps&Tech_04_13\DB_Apps&Tech_04_13_02.png' error.
+[2015.10.13-01.24.14:213][360]LogTexture:Display: Building textures: DB_Apps_Tech_04_13_09 (BGRA8)
+[2015.10.13-01.24.14:228][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_08, compiling. 
+[2015.10.13-01.24.14:241][360]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/ThirdPersonBP/Custom_Props/DB_Apps_Tech_04_13_03.DB_Apps_Tech_04_13_03'
+[2015.10.13-01.24.14:242][360]LogStreaming:Warning: Failed to read file 'DB_Apps&Tech_04_13_03.png' error.
+[2015.10.13-01.24.14:242][360]LogStreaming:Warning: Failed to read file 'C:\Users\Lauren\Downloads\DB_Apps&Tech_04_13_FBX/..\DB_Apps&Tech_04_13\DB_Apps&Tech_04_13_03.png' error.
+[2015.10.13-01.24.14:250][360]LogTexture:Display: Building textures: DB_Apps_Tech_04_13_11 (BGRA8)
+[2015.10.13-01.24.14:300][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_10, compiling. 
+[2015.10.13-01.24.14:320][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_12, compiling. 
+[2015.10.13-01.24.14:347][360]LogMaterial: Missing cached shader map for material DB_Apps_Tech_04_13_13, compiling. 
+[2015.10.13-01.24.14:488][360]LogStaticMesh: Building static mesh Stove...
+[2015.10.13-01.24.16:193][360]LogStaticMesh: Built static mesh [1.704726.2s] /Game/ThirdPersonBP/Custom_Props/Stove.Stove
+[2015.10.13-01.24.16:365][360]LogStaticMesh:Warning: Stove has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.13-01.24.16:432][360]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.13-01.24.16:432][360]FBXImport:Warning: Warning Stove has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.13-01.24.27:032][840]LogActorFactory: Actor Factory created Stove
+[2015.10.13-01.24.27:962][895]LogActorFactory: Actor Factory created Stove
+[2015.10.13-01.24.53:031][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-01.24.53:031][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.13-01.24.53:031][318]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 12, 2015, 5:24:53 PM)
+[2015.10.13-01.24.53:031][318]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.13-01.24.53:051][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019848s)
+[2015.10.13-01.24.53:052][318]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.13-01.24.53:052][318]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2015.10.13-01.24.53:052][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021025s)
+[2015.10.13-01.24.53:076][318]LogInit: XAudio2 using 'Speakers (Siberia v2 D3H)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.13-01.24.53:083][318]LogInit: FAudioDevice initialized.
+[2015.10.13-01.24.53:116][318]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.13-01.24.53:125][318]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.10.12-21.24.53
+[2015.10.13-01.24.53:125][318]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.13-01.24.53:125][318]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.13-01.24.53:126][318]LogWorld: Bringing up level for play took: 0.008124
+[2015.10.13-01.24.53:147][318]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.481
+[2015.10.13-01.24.53:147][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-01.25.06:529][120]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-01.25.06:590][120]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.13-01.25.06:604][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BBD2F20
+[2015.10.13-01.25.09:207][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopCounter)
+[2015.10.13-01.25.57:996][855]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Lauren\Downloads\3d-model.fbx (3)\FruitBowl.fbx)
+[2015.10.13-01.25.58:010][855]LogFbx: Loading FBX Scene from C:\Users\Lauren\Downloads\3d-model.fbx (3)\FruitBowl.fbx
+[2015.10.13-01.26.15:123][855]LogCrashTracker: 
+
+
+[2015.10.13-01.26.15:236][855]LogCrashTracker: 
+
+
+[2015.10.13-01.26.15:236][855]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2015.10.13-01.26.15:358][855]LogExit: Executing StaticShutdownAfterError
+[2015.10.13-01.26.16:464][855]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.13-01.26.16:464][855]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.13-01.26.16:500][855]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.10.13-01.26.16:500][855]Log file closed, 10/12/15 21:26:16

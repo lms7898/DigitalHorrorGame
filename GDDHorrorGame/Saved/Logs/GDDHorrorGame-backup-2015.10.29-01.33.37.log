@@ -1,0 +1,564 @@
+﻿[2015.10.29-04.54.22:624][  0]Log file open, 10/29/15 00:54:22
+[2015.10.29-04.54.22:624][  0]LogInit:Display: Running engine for game: GDDHorrorGame
+[2015.10.29-04.54.22:624][  0]LogInit:Display: RandInit(71935996) SRandInit(71935997).
+[2015.10.29-04.54.22:624][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.29-04.54.22:624][  0]LogStats: Stats thread started at 0.314843
+[2015.10.29-04.54.22:624][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.29-04.54.22:624][  0]LogInit: API Version: 2672455
+[2015.10.29-04.54.22:624][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.29-04.54.22:624][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.29-04.54.22:624][  0]LogInit: Build Configuration: Development
+[2015.10.29-04.54.22:624][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.29-04.54.22:624][  0]LogInit: Command line:  
+[2015.10.29-04.54.22:624][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.29-04.54.22:624][  0]LogInit: Rocket: 1
+[2015.10.29-04.54.22:691][  0]LogInit: Using libcurl 7.41.0
+[2015.10.29-04.54.22:691][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.29-04.54.22:691][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.29-04.54.22:691][  0]LogInit:  - other features:
+[2015.10.29-04.54.22:691][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.29-04.54.22:691][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.29-04.54.22:691][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.29-04.54.22:691][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.29-04.54.22:691][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.29-04.54.22:691][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.29-04.54.22:691][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.29-04.54.22:691][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.29-04.54.22:691][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.29-04.54.22:691][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.29-04.54.22:818][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.29-04.54.22:826][  0]LogInit: Object subsystem initialized
+[2015.10.29-04.54.22:827][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.29-04.54.22:827][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.29-04.54.22:849][  0]LogInit: Computer: ASUS
+[2015.10.29-04.54.22:849][  0]LogInit: User: N76VJ
+[2015.10.29-04.54.22:849][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.29-04.54.22:849][  0]LogInit: High frequency timer resolution =2.338451 MHz
+[2015.10.29-04.54.22:849][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.10.29-04.54.22:849][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.29-04.54.22:849][  0]LogMemory: Process Physical Memory: 55.89 MB used, 55.89 MB peak
+[2015.10.29-04.54.22:849][  0]LogMemory: Process Virtual Memory: 55.35 MB used, 55.35 MB peak
+[2015.10.29-04.54.22:849][  0]LogMemory: Physical Memory: 5055.92 MB used, 12173.58 MB total
+[2015.10.29-04.54.22:849][  0]LogMemory: Virtual Memory: 365.12 MB used, 134217728.00 MB total
+[2015.10.29-04.54.23:655][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.29-04.54.24:616][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.10.29-04.54.24:616][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.10.29-04.54.24:636][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 635M       (Feature Level 11_0)
+[2015.10.29-04.54.24:636][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.10.29-04.54.24:639][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.29-04.54.24:639][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6086MB of shared system memory, 0 output[s]
+[2015.10.29-04.54.24:639][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.29-04.54.24:648][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.29-04.54.24:649][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.29-04.54.24:664][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.29-04.54.24:682][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Intermediate/Shaders/WorkingDirectory/27836/).
+[2015.10.29-04.54.24:682][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Intermediate/Shaders/tmp/203340C2474289B9BBA795BC79DF41E9/'.
+[2015.10.29-04.54.24:682][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.29-04.54.32:385][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.29-04.54.32:392][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.29-04.54.32:400][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.29-04.54.32:407][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.29-04.54.32:413][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.29-04.54.32:420][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.29-04.54.32:425][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.29-04.54.32:429][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.29-04.54.32:433][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.29-04.54.32:438][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.29-04.54.32:442][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.29-04.54.32:446][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.29-04.54.32:447][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.29-04.54.32:559][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.29-04.54.32:563][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.29-04.54.32:567][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.29-04.54.32:574][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.29-04.54.32:574][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.29-04.54.33:456][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.29-04.54.34:003][  0]LogDerivedDataCache: Loaded boot cache 0.55s 37MB C:/Users/N76VJ/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.29-04.54.34:003][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/N76VJ/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.29-04.54.34:003][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.29-04.54.34:003][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.29-04.54.34:003][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.29-04.54.34:003][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.29-04.54.34:250][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.29-04.54.34:331][  0]LogDerivedDataCache: Using Local data cache path C:/Users/N76VJ/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.29-04.54.52:112][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.29-04.54.52:384][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.29-04.54.55:189][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.29-04.54.55:189][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.29-04.55.02:026][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.29-04.55.45:988][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.29-04.55.49:135][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.10.29-04.55.58:504][  0]SourceControl: Info Source control is disabled
+[2015.10.29-04.55.58:504][  0]SourceControl: Info Source control is disabled
+[2015.10.29-04.55.58:518][  0]SourceControl: Info Source control is disabled
+[2015.10.29-04.55.58:533][  0]SourceControl: Info Source control is disabled
+[2015.10.29-04.56.01:538][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.29-04.56.02:799][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.29-04.56.02:799][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.29-04.56.08:023][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 3.04s
+[2015.10.29-04.56.08:515][  0]LogEngine: Initializing Engine...
+[2015.10.29-04.56.08:763][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.29-04.56.11:222][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.10.29-04.56.19:389][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.29-04.56.21:973][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-04.56.22:171][  0]LogInit: FAudioDevice initialized.
+[2015.10.29-04.56.22:193][  0]LogDerivedDataCache: Saved boot cache 0.02s 37MB C:/Users/N76VJ/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.29-04.56.22:312][  0]LogInit: Texture streaming: Enabled
+[2015.10.29-04.56.22:528][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.29-04.56.22:528][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.29-04.56.22:529][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 307c31384536427768eae98f6a462f38|065feb13441e497d8de9007e54a4f2b1|bba66cf8-b041-4635-944f-7982c7832495
+[2015.10.29-04.56.22:529][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.29-04.56.47:697][  0]LogInit: Transaction tracking system initialized
+[2015.10.29-04.56.49:087][  0]BlueprintLog: New page: Editor Load
+[2015.10.29-04.56.55:302][  0]LocalizationService: Info Localization service is disabled
+[2015.10.29-04.57.01:442][  0]LogConsoleResponse:Display: 
+[2015.10.29-04.57.23:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Content/' took 0.14s
+[2015.10.29-04.57.23:057][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.29-04.57.28:982][  0]SourceControl: Info Source control is disabled
+[2015.10.29-04.57.29:253][  0]Cmd: MAP LOAD FILE="../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.29-04.57.29:317][  0]LightingResults: New page: Lighting Build
+[2015.10.29-04.57.30:250][  0]MapCheck: New page: Map Check
+[2015.10.29-04.57.30:250][  0]LightingResults: New page: Lighting Build
+[2015.10.29-04.57.32:505][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E35051E160
+[2015.10.29-04.57.33:229][  0]LogLinker:Warning: Asset '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.29-04.57.34:029][  0]LogLinker:Warning: Asset '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.29-04.57.34:077][  0]LogLinker:Warning: Asset '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.29-04.57.34:355][  0]LogLinker:Warning: Asset '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.29-04.57.34:768][  0]LogLinker:Warning: Asset '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.29-04.59.24:827][  0]LogTexture:Display: Building textures: Door1 (AutoDXT)
+[2015.10.29-04.59.25:389][  0]LogMaterial: Missing cached shader map for material Door1_Mat, compiling. 
+[2015.10.29-04.59.58:886][  0]LogMaterial: Missing cached shader map for material iPhone_6_galssMat, compiling. 
+[2015.10.29-05.00.03:549][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave iphone_6_original...
+[2015.10.29-05.00.05:297][  0]LogStaticMesh: Building static mesh FrameOBJ...
+[2015.10.29-05.00.05:497][  0]LogStaticMesh: Built static mesh [0.199547.2s] /Game/ThirdPersonBP/Custom_Props/frame/FrameOBJ.FrameOBJ
+[2015.10.29-05.00.08:905][  0]LogTexture:Display: Building textures: YoungCoupleEmbracing-20070508 (AutoDXT)
+[2015.10.29-05.00.16:300][  0]LogMaterial: Missing cached shader map for material FrameMat, compiling. 
+[2015.10.29-05.00.16:373][  0]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2015.10.29-05.00.16:440][  0]LogStaticMesh: Building static mesh Key_2_Release...
+[2015.10.29-05.00.16:465][  0]LogStaticMesh: Built static mesh [0.086697.2s] /Game/ThirdPersonBP/Custom_Props/Key_2_Release.Key_2_Release
+[2015.10.29-05.01.20:963][  0]LogStaticMesh: Building static mesh nordic_floor_lamp_obj...
+[2015.10.29-05.01.22:218][  0]LogStaticMesh: Built static mesh [1.326468.2s] /Game/ThirdPersonBP/Custom_Props/lamp/nordic_floor_lamp_obj.nordic_floor_lamp_obj
+[2015.10.29-05.01.30:251][  0]LogTexture:Display: Building textures: Aviary_Photo_130902284869728981 (AutoDXT)
+[2015.10.29-05.01.36:926][  0]LogMaterial: Missing cached shader map for material ScribbleOutPic, compiling. 
+[2015.10.29-05.01.37:318][  0]LogMaterial: Missing cached shader map for material polySurface9Mat, compiling. 
+[2015.10.29-05.01.37:332][  0]LogMaterial: Missing cached shader map for material polySurface8Mat, compiling. 
+[2015.10.29-05.01.37:379][  0]LogMaterial: Missing cached shader map for material polySurface7Mat, compiling. 
+[2015.10.29-05.01.37:390][  0]LogMaterial: Missing cached shader map for material polySurface6Mat, compiling. 
+[2015.10.29-05.01.37:437][  0]LogMaterial: Missing cached shader map for material polySurface5Mat, compiling. 
+[2015.10.29-05.01.37:447][  0]LogMaterial: Missing cached shader map for material polySurface4Mat, compiling. 
+[2015.10.29-05.01.37:498][  0]LogMaterial: Missing cached shader map for material polySurface3Mat, compiling. 
+[2015.10.29-05.01.37:507][  0]LogMaterial: Missing cached shader map for material polySurface2Mat, compiling. 
+[2015.10.29-05.01.37:515][  0]LogMaterial: Missing cached shader map for material polySurface22Mat, compiling. 
+[2015.10.29-05.01.37:573][  0]LogMaterial: Missing cached shader map for material polySurface21Mat, compiling. 
+[2015.10.29-05.01.37:605][  0]LogMaterial: Missing cached shader map for material polySurface20Mat, compiling. 
+[2015.10.29-05.01.37:616][  0]LogMaterial: Missing cached shader map for material polySurface19Mat, compiling. 
+[2015.10.29-05.01.37:656][  0]LogMaterial: Missing cached shader map for material polySurface18Mat, compiling. 
+[2015.10.29-05.01.37:693][  0]LogMaterial: Missing cached shader map for material polySurface17Mat, compiling. 
+[2015.10.29-05.01.37:724][  0]LogMaterial: Missing cached shader map for material polySurface16Mat, compiling. 
+[2015.10.29-05.01.37:738][  0]LogMaterial: Missing cached shader map for material polySurface15Mat, compiling. 
+[2015.10.29-05.01.37:758][  0]LogMaterial: Missing cached shader map for material polySurface14Mat, compiling. 
+[2015.10.29-05.01.37:775][  0]LogMaterial: Missing cached shader map for material polySurface13Mat, compiling. 
+[2015.10.29-05.01.37:788][  0]LogMaterial: Missing cached shader map for material polySurface12Mat, compiling. 
+[2015.10.29-05.01.37:799][  0]LogMaterial: Missing cached shader map for material polySurface11Mat, compiling. 
+[2015.10.29-05.01.37:810][  0]LogMaterial: Missing cached shader map for material polySurface10Mat, compiling. 
+[2015.10.29-05.01.37:910][  0]LogMaterial: Missing cached shader map for material bottleMat, compiling. 
+[2015.10.29-05.01.37:920][  0]LogStaticMesh: Building static mesh pills_bottle...
+[2015.10.29-05.01.39:372][  0]LogStaticMesh: Built static mesh [1.452755.2s] /Game/ThirdPersonBP/Custom_Props/pills_bottle.pills_bottle
+[2015.10.29-05.01.39:710][  0]LogTexture:Display: Building textures: jemina_vase_df (BGRA8)
+[2015.10.29-05.01.40:006][  0]LogMaterial: Missing cached shader map for material JEMINA_vase_Mat, compiling. 
+[2015.10.29-05.01.40:047][  0]LogStaticMesh: Building static mesh JEMINA_vase...
+[2015.10.29-05.01.40:636][  0]LogStaticMesh: Built static mesh [0.616580.2s] /Game/ThirdPersonBP/Custom_Props/vase/JEMINA_vase.JEMINA_vase
+[2015.10.29-05.01.56:010][  0]LogMaterial: Missing cached shader map for material Object003Mat, compiling. 
+[2015.10.29-05.02.05:410][  0]LogTexture:Display: Building textures: rust (AutoDXT)
+[2015.10.29-05.02.05:871][  0]LogMaterial: Missing cached shader map for material lamp_metal_part_1Mat, compiling. 
+[2015.10.29-05.02.05:881][  0]LogMaterial: Missing cached shader map for material Cylinder012Mat, compiling. 
+[2015.10.29-05.02.05:920][  0]LogMaterial: Missing cached shader map for material bulbMat, compiling. 
+[2015.10.29-05.02.06:435][  0]LogMaterial: Missing cached shader map for material Object004Mat, compiling. 
+[2015.10.29-05.02.06:446][  0]LogMaterial: Missing cached shader map for material lamp_metal_part_1Mat2, compiling. 
+[2015.10.29-05.02.07:029][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line16...
+[2015.10.29-05.02.07:120][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line59...
+[2015.10.29-05.02.07:272][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line9...
+[2015.10.29-05.02.07:671][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line50_converted...
+[2015.10.29-05.02.07:816][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line51_converted...
+[2015.10.29-05.02.07:969][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line52...
+[2015.10.29-05.02.08:091][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line53...
+[2015.10.29-05.02.08:152][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line1...
+[2015.10.29-05.02.08:177][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line56...
+[2015.10.29-05.02.08:277][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line2...
+[2015.10.29-05.02.08:306][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line3...
+[2015.10.29-05.02.08:338][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line4...
+[2015.10.29-05.02.08:366][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line14...
+[2015.10.29-05.02.08:516][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Light_Bulb_Breaking-SoundBible_com-53066515...
+[2015.10.29-05.02.09:497][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line18...
+[2015.10.29-05.02.09:785][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line11...
+[2015.10.29-05.02.09:901][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line12...
+[2015.10.29-05.02.10:101][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line13...
+[2015.10.29-05.02.10:167][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line15...
+[2015.10.29-05.02.10:335][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave iphone_6_original__audio-cutter_com_...
+[2015.10.29-05.02.10:655][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Dial_Tone-SoundBible_com-1256782435...
+[2015.10.29-05.02.10:864][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line5...
+[2015.10.29-05.02.11:313][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line48_converted...
+[2015.10.29-05.02.11:420][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line10...
+[2015.10.29-05.02.11:768][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line3...
+[2015.10.29-05.02.11:987][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line1...
+[2015.10.29-05.02.12:194][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line2...
+[2015.10.29-05.02.12:406][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line17...
+[2015.10.29-05.02.12:598][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave TV_Static-Mike_Koenig-1287909192...
+[2015.10.29-05.02.12:855][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line6...
+[2015.10.29-05.02.12:940][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave LucasVoicemail...
+[2015.10.29-05.02.13:157][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line4...
+[2015.10.29-05.02.13:324][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line19...
+[2015.10.29-05.02.13:471][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line55...
+[2015.10.29-05.02.13:564][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line54...
+[2015.10.29-05.02.13:637][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Skype_Feedback-SoundBible_com-544659535...
+[2015.10.29-05.02.13:909][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line19_1_converted...
+[2015.10.29-05.02.16:087][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Knocking_On_Door-SoundBible_com-84643603...
+[2015.10.29-05.02.16:297][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line47_converted...
+[2015.10.29-05.02.16:479][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line46_converted...
+[2015.10.29-05.02.16:654][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line58...
+[2015.10.29-05.02.16:757][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line49_converted...
+[2015.10.29-05.02.16:887][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave EndScene...
+[2015.10.29-05.02.17:331][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.29-05.02.20:650][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.02.20:650][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.02.28:885][  0]LogEditorServer: Finished looking for orphan Actors (0.323 secs)
+[2015.10.29-05.02.29:991][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.29-05.02.30:790][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 799.671ms to complete.
+[2015.10.29-05.02.30:790][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 301.639
+[2015.10.29-05.02.34:662][  0]LogCollectionManager: Loaded 0 collections in 0.006807 seconds
+[2015.10.29-05.02.34:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Saved/Collections/' took 0.01s
+[2015.10.29-05.02.34:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Content/Developers/N76VJ/Collections/' took 0.01s
+[2015.10.29-05.02.34:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Content/Collections/' took 0.01s
+[2015.10.29-05.02.34:767][  0]LogContentBrowser: Native class hierarchy populated in 0.0231 seconds. Added 1867 classes and 333 folders.
+[2015.10.29-05.02.34:813][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000013 seconds
+[2015.10.29-05.02.34:846][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.10.29-05.02.37:524][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.29-05.02.37:579][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.10.29-05.02.38:327][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.29-05.02.38:448][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.29-05.02.38:501][  0]LogLoad: Full Startup: 498.60 seconds (BP compile: 2.01 seconds)
+[2015.10.29-05.02.42:261][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.10.29-05.02.45:872][  0]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:2).
+[2015.10.29-05.02.54:536][ 16]LogAssetRegistry: Asset discovery search completed in 425.4122 seconds
+[2015.10.29-05.02.54:536][ 16]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.29-05.02.54:536][ 16]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2015.10.29-05.04.11:955][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (environment_v2)
+[2015.10.29-05.04.20:698][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (environment_v2)
+[2015.10.29-05.05.57:313][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.29-05.05.57:313][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-05.05.57:437][643]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2015, 9:05:57 PM)
+[2015.10.29-05.05.57:472][643]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.29-05.05.58:370][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.897452s)
+[2015.10.29-05.05.58:371][643]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.29-05.05.58:371][643]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2015.10.29-05.05.58:404][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.932138s)
+[2015.10.29-05.05.59:200][643]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-05.05.59:208][643]LogInit: FAudioDevice initialized.
+[2015.10.29-05.05.59:876][643]LogWorld: Game class is 'NewGameMode_C'
+[2015.10.29-05.06.00:212][643]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.06.00:212][643]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.06.00:216][643]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.10.29-01.06.00
+[2015.10.29-05.06.00:216][643]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-05.06.00:277][643]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-05.06.00:546][643]LogWorld: Bringing up level for play took: 0.351245
+[2015.10.29-05.06.01:166][643]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 3.163
+[2015.10.29-05.06.01:166][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.29-05.06.12:972][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.29-05.06.13:374][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.29-05.06.13:445][108]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E329D5DEE0
+[2015.10.29-05.11.37:965][562]LogSavePackage: Save=1951.005981ms
+[2015.10.29-05.11.37:965][562]LogSavePackage: Moving '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Saved/UEDPCThirdPersonExampleMapD9CD4537475C354C6DA223AEB55C7C14.tmp' to '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.umap'
+[2015.10.29-05.11.37:998][562]LogSavePackage: Total save time: 2078.040976ms
+[2015.10.29-05.11.37:998][562]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCThirdPersonExampleMap.umap
+[2015.10.29-05.12.24:432][321]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.29-05.12.24:432][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-05.12.24:433][321]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2015, 9:12:24 PM)
+[2015.10.29-05.12.24:433][321]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.29-05.12.24:597][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164703s)
+[2015.10.29-05.12.24:600][321]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.29-05.12.24:600][321]LogPlayLevel: PIE: World Init took: (0.002638s)
+[2015.10.29-05.12.24:600][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.167709s)
+[2015.10.29-05.12.24:638][321]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-05.12.24:646][321]LogInit: FAudioDevice initialized.
+[2015.10.29-05.12.24:735][321]LogWorld: Game class is 'NewGameMode_C'
+[2015.10.29-05.12.24:753][321]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.12.24:753][321]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.12.24:757][321]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.10.29-01.12.24
+[2015.10.29-05.12.24:757][321]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-05.12.24:757][321]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-05.12.24:759][321]LogWorld: Bringing up level for play took: 0.023337
+[2015.10.29-05.12.24:785][321]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.802
+[2015.10.29-05.12.24:785][321]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.29-05.12.51:176][595]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.52:905][699]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.53:439][731]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.53:772][751]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.53:972][763]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.54:155][774]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.54:322][784]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.54:505][795]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.54:673][805]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.54:856][816]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.55:056][828]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.55:239][839]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.55:439][851]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.55:622][862]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.55:822][874]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.56:022][886]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.56:223][898]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.56:389][908]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.56:589][920]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.12.56:789][932]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.07:773][479]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.08:721][534]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.09:396][573]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.09:966][606]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.10:382][630]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.10:694][648]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.11:077][670]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.11:369][687]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.11:647][703]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.11:941][720]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.13.12:235][737]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.14.20:637][230]LogBlueprintUserMessages: [BP_Stove_C_0] Interacting with Stove
+[2015.10.29-05.14.24:867][409]LogBlueprintUserMessages: [BP_Cupcake_C_0] Picked up Cupcake
+[2015.10.29-05.20.40:181][355]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.20.41:428][409]LogBlueprintUserMessages: [BP_BedWindow_C_1] Interacting with Window
+[2015.10.29-05.23.38:409][793]LogBlueprintUserMessages: [BP_FrontDoor_C_1] The End
+[2015.10.29-05.23.43:408][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.29-05.23.43:531][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.29-05.23.43:554][ 57]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E33EC2B420
+[2015.10.29-05.25.43:010][229]LogSavePackage: Save=1665.625244ms
+[2015.10.29-05.25.43:010][229]LogSavePackage: Moving '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Saved/ThirdPersonExampleMap_Auto14E8D81AA44CFD5E26097CB9C7358DDA5.tmp' to '../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.10.29-05.25.43:018][229]LogSavePackage: Total save time: 1696.047511ms
+[2015.10.29-05.25.43:018][229]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/N76VJ/Documents/RIT/GDD II/DigitalHorrorGame/GDDHorrorGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2015.10.29-05.25.43:026][229]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.763
+[2015.10.29-05.25.43:026][229]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.763
+[2015.10.29-05.26.27:636][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sofa4)
+[2015.10.29-05.26.33:976][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (environment_v2)
+[2015.10.29-05.27.18:318][110]LogAssetTools:Warning: Failed to import 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Bookshelf Branch\bookshelf_branch_obj.rar'. Unknown extension 'rar'.
+[2015.10.29-05.27.49:081][202]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\assets.obj)
+[2015.10.29-05.27.50:241][202]LogFbx: Loading FBX Scene from C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\assets.obj
+[2015.10.29-05.27.55:481][202]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.29-05.28.01:497][202]LogFbx: Loading FBX Scene from C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\assets.obj
+[2015.10.29-05.28.06:467][202]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.29-05.28.06:545][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/pages'
+[2015.10.29-05.28.06:545][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/pages'
+[2015.10.29-05.28.06:597][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/pages.pages'
+[2015.10.29-05.28.06:598][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\pages.png' error.
+[2015.10.29-05.28.06:598][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:598][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:598][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\pages.png
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.06:623][202]LogMaterial: Missing cached shader map for material pages, compiling. 
+[2015.10.29-05.28.06:629][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:629][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:635][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/None_pages_png'
+[2015.10.29-05.28.06:636][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/None_pages_png'
+[2015.10.29-05.28.06:640][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/pages.pages'
+[2015.10.29-05.28.06:640][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\pages.png' error.
+[2015.10.29-05.28.06:640][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:641][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:641][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\pages.png
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.06:645][202]LogMaterial: Missing cached shader map for material None_pages_png, compiling. 
+[2015.10.29-05.28.06:653][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:653][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:659][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/metal_part'
+[2015.10.29-05.28.06:660][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/metal_part'
+[2015.10.29-05.28.06:676][202]LogMaterial: Missing cached shader map for material metal_part, compiling. 
+[2015.10.29-05.28.06:686][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:686][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:695][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_traditionalcrafting'
+[2015.10.29-05.28.06:696][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_traditionalcrafting'
+[2015.10.29-05.28.06:700][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/traditional_crafting'
+[2015.10.29-05.28.06:701][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/traditional_crafting'
+[2015.10.29-05.28.06:701][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/traditional_crafting.traditional_crafting'
+[2015.10.29-05.28.06:701][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\traditional crafting.png' error.
+[2015.10.29-05.28.06:701][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:702][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:702][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\traditional crafting.png
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.06:709][202]LogMaterial: Missing cached shader map for material book_traditionalcrafting, compiling. 
+[2015.10.29-05.28.06:720][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:720][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:728][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/None'
+[2015.10.29-05.28.06:728][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/None'
+[2015.10.29-05.28.06:736][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/sell_yourself'
+[2015.10.29-05.28.06:736][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/sell_yourself'
+[2015.10.29-05.28.06:736][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/sell_yourself.sell_yourself'
+[2015.10.29-05.28.06:737][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\sell.yourself.png' error.
+[2015.10.29-05.28.06:737][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:737][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:737][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\sell.yourself.png
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.06:743][202]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.10.29-05.28.06:751][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:751][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:768][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_oldschoolsculpting'
+[2015.10.29-05.28.06:768][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_oldschoolsculpting'
+[2015.10.29-05.28.06:776][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/old_school_sculpting'
+[2015.10.29-05.28.06:776][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/old_school_sculpting'
+[2015.10.29-05.28.06:776][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/old_school_sculpting.old_school_sculpting'
+[2015.10.29-05.28.06:777][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\old school sculpting.png' error.
+[2015.10.29-05.28.06:777][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:777][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:777][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\old school sculpting.png
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.06:783][202]LogMaterial: Missing cached shader map for material book_oldschoolsculpting, compiling. 
+[2015.10.29-05.28.06:790][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:790][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:796][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_modernphotography'
+[2015.10.29-05.28.06:796][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_modernphotography'
+[2015.10.29-05.28.06:801][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/modern_photography'
+[2015.10.29-05.28.06:801][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/modern_photography'
+[2015.10.29-05.28.06:801][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/modern_photography.modern_photography'
+[2015.10.29-05.28.06:802][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\modern.photography.png' error.
+[2015.10.29-05.28.06:802][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:802][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:802][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\modern.photography.png
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.06:806][202]LogMaterial: Missing cached shader map for material book_modernphotography, compiling. 
+[2015.10.29-05.28.06:813][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:813][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:818][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_manageyourtime'
+[2015.10.29-05.28.06:818][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_manageyourtime'
+[2015.10.29-05.28.06:823][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/manage_your_time'
+[2015.10.29-05.28.06:823][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/manage_your_time'
+[2015.10.29-05.28.06:823][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/manage_your_time.manage_your_time'
+[2015.10.29-05.28.06:823][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\manage your time.png' error.
+[2015.10.29-05.28.06:823][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:823][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:823][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\manage your time.png
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.06:828][202]LogMaterial: Missing cached shader map for material book_manageyourtime, compiling. 
+[2015.10.29-05.28.06:834][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:834][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:840][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_digitalart'
+[2015.10.29-05.28.06:840][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_digitalart'
+[2015.10.29-05.28.06:850][202]LogMaterial: Missing cached shader map for material book_digitalart, compiling. 
+[2015.10.29-05.28.06:857][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:857][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:866][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_colormatters'
+[2015.10.29-05.28.06:867][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/book_colormatters'
+[2015.10.29-05.28.06:871][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/color_matters'
+[2015.10.29-05.28.06:872][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/color_matters'
+[2015.10.29-05.28.06:872][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/color_matters.color_matters'
+[2015.10.29-05.28.06:872][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\color matters.png' error.
+[2015.10.29-05.28.06:872][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:872][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.06:872][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\books\color matters.png
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.06:878][202]LogMaterial: Missing cached shader map for material book_colormatters, compiling. 
+[2015.10.29-05.28.06:885][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:885][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:891][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/glass'
+[2015.10.29-05.28.06:891][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/glass'
+[2015.10.29-05.28.06:908][202]LogMaterial: Missing cached shader map for material glass, compiling. 
+[2015.10.29-05.28.06:916][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:917][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:923][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/rock'
+[2015.10.29-05.28.06:924][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/rock'
+[2015.10.29-05.28.06:936][202]LogMaterial: Missing cached shader map for material rock, compiling. 
+[2015.10.29-05.28.06:944][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:944][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:950][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/nose_sculpt'
+[2015.10.29-05.28.06:950][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/nose_sculpt'
+[2015.10.29-05.28.06:961][202]LogMaterial: Missing cached shader map for material nose_sculpt, compiling. 
+[2015.10.29-05.28.06:970][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:970][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.06:993][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/globe_frame'
+[2015.10.29-05.28.06:994][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/globe_frame'
+[2015.10.29-05.28.06:999][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/earth_lights_lrg'
+[2015.10.29-05.28.06:999][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/earth_lights_lrg'
+[2015.10.29-05.28.06:999][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/earth_lights_lrg.earth_lights_lrg'
+[2015.10.29-05.28.07:000][202]LogStreaming:Warning: Failed to read file 'C:\Users\mrg\Desktop\nasa\earth_lights_lrg.jpg' error.
+[2015.10.29-05.28.07:000][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.07:000][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.07:000][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\mrg\Desktop\nasa\earth_lights_lrg.jpg
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.07:006][202]LogMaterial: Missing cached shader map for material globe_frame, compiling. 
+[2015.10.29-05.28.07:015][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:015][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:024][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/globe_frame_NONE'
+[2015.10.29-05.28.07:024][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/globe_frame_NONE'
+[2015.10.29-05.28.07:035][202]LogMaterial: Missing cached shader map for material globe_frame_NONE, compiling. 
+[2015.10.29-05.28.07:043][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:043][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:051][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/globe'
+[2015.10.29-05.28.07:051][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/globe'
+[2015.10.29-05.28.07:057][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/earth_lights_lrg'
+[2015.10.29-05.28.07:057][202]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/LivingRoom/Shelf/earth_lights_lrg.earth_lights_lrg'
+[2015.10.29-05.28.07:057][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\earth_lights_lrg.jpg' error.
+[2015.10.29-05.28.07:057][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.07:057][202]LogStreaming:Warning: Failed to read file 'C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/' error.
+[2015.10.29-05.28.07:057][202]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf\textures\earth_lights_lrg.jpg
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+ - C:\Users\N76VJ\Documents\RIT\GDD II\Assets\MinorEpidemic 2015-10-28 at 7.49.36 PM\Home Office Shelf/
+[2015.10.29-05.28.07:064][202]LogMaterial: Missing cached shader map for material globe, compiling. 
+[2015.10.29-05.28.07:072][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:072][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:080][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_saddle'
+[2015.10.29-05.28.07:080][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_saddle'
+[2015.10.29-05.28.07:092][202]LogMaterial: Missing cached shader map for material bike_saddle, compiling. 
+[2015.10.29-05.28.07:100][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:100][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:108][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_wings'
+[2015.10.29-05.28.07:109][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_wings'
+[2015.10.29-05.28.07:124][202]LogMaterial: Missing cached shader map for material bike_wings, compiling. 
+[2015.10.29-05.28.07:133][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:133][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:140][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_pedals'
+[2015.10.29-05.28.07:140][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_pedals'
+[2015.10.29-05.28.07:183][202]LogMaterial: Missing cached shader map for material bike_pedals, compiling. 
+[2015.10.29-05.28.07:192][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:192][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:208][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_frame'
+[2015.10.29-05.28.07:209][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_frame'
+[2015.10.29-05.28.07:285][202]LogMaterial: Missing cached shader map for material bike_frame, compiling. 
+[2015.10.29-05.28.07:294][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:294][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:303][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_handle'
+[2015.10.29-05.28.07:303][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_handle'
+[2015.10.29-05.28.07:315][202]LogMaterial: Missing cached shader map for material bike_handle, compiling. 
+[2015.10.29-05.28.07:323][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:323][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:331][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_tire'
+[2015.10.29-05.28.07:331][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/bike_tire'
+[2015.10.29-05.28.07:348][202]LogMaterial: Missing cached shader map for material bike_tire, compiling. 
+[2015.10.29-05.28.07:358][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:358][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:365][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/banana'
+[2015.10.29-05.28.07:365][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/banana'
+[2015.10.29-05.28.07:381][202]LogMaterial: Missing cached shader map for material banana, compiling. 
+[2015.10.29-05.28.07:391][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:391][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:401][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/pin'
+[2015.10.29-05.28.07:412][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/pin'
+[2015.10.29-05.28.07:422][202]LogMaterial: Missing cached shader map for material pin, compiling. 
+[2015.10.29-05.28.07:432][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:432][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.29-05.28.07:441][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/head_sculpt'
+[2015.10.29-05.28.07:441][202]LogLinker:Warning: Can't find file '/Game/Meshes/LivingRoom/Shelf/head_sculpt'
+[2015.10.29-05.28.07:454][202]LogMaterial: Missing cached shader map for material head_sculpt, compiling. 
+[2015.10.29-05.28.07:463][202]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2

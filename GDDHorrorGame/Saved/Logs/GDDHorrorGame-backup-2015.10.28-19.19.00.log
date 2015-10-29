@@ -1,0 +1,579 @@
+﻿[2015.10.28-23.02.46:541][  0]Log file open, 10/28/15 19:02:46
+[2015.10.28-23.02.46:541][  0]LogInit:Display: Running engine for game: GDDHorrorGame
+[2015.10.28-23.02.46:541][  0]LogInit:Display: RandInit(-1645255653) SRandInit(-1645255652).
+[2015.10.28-23.02.46:541][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.28-23.02.46:541][  0]LogStats: Stats thread started at 0.078210
+[2015.10.28-23.02.46:541][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.28-23.02.46:541][  0]LogInit: API Version: 2672455
+[2015.10.28-23.02.46:541][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.28-23.02.46:541][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.28-23.02.46:541][  0]LogInit: Build Configuration: Development
+[2015.10.28-23.02.46:541][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.28-23.02.46:541][  0]LogInit: Command line:  
+[2015.10.28-23.02.46:541][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.28-23.02.46:541][  0]LogInit: Rocket: 1
+[2015.10.28-23.02.46:553][  0]LogInit: Using libcurl 7.41.0
+[2015.10.28-23.02.46:553][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.28-23.02.46:553][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.28-23.02.46:553][  0]LogInit:  - other features:
+[2015.10.28-23.02.46:553][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.28-23.02.46:553][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.28-23.02.46:553][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.28-23.02.46:553][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.28-23.02.46:553][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.28-23.02.46:553][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.28-23.02.46:553][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.28-23.02.46:553][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.28-23.02.46:553][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.28-23.02.46:553][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.28-23.02.46:561][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.28-23.02.46:568][  0]LogInit: Object subsystem initialized
+[2015.10.28-23.02.46:569][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.28-23.02.46:569][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.28-23.02.46:577][  0]LogInit: Computer: NICKSCOMPUTER
+[2015.10.28-23.02.46:577][  0]LogInit: User: ntanc000
+[2015.10.28-23.02.46:577][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.28-23.02.46:577][  0]LogInit: High frequency timer resolution =2.537598 MHz
+[2015.10.28-23.02.46:577][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.10.28-23.02.46:577][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.28-23.02.46:577][  0]LogMemory: Process Physical Memory: 52.93 MB used, 52.93 MB peak
+[2015.10.28-23.02.46:577][  0]LogMemory: Process Virtual Memory: 55.05 MB used, 55.05 MB peak
+[2015.10.28-23.02.46:577][  0]LogMemory: Physical Memory: 5033.19 MB used, 16269.45 MB total
+[2015.10.28-23.02.46:577][  0]LogMemory: Virtual Memory: 360.26 MB used, 134217728.00 MB total
+[2015.10.28-23.02.46:827][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.28-23.02.47:885][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.10.28-23.02.47:885][  0]LogD3D11RHI: Adapter has 3981MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 2 output[s]
+[2015.10.28-23.02.47:894][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.10.28-23.02.47:894][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.10.28-23.02.47:895][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.28-23.02.47:895][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.28-23.02.47:895][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.28-23.02.47:899][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.28-23.02.47:899][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.28-23.02.47:912][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.28-23.02.47:927][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Intermediate/Shaders/WorkingDirectory/8148/).
+[2015.10.28-23.02.47:928][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Intermediate/Shaders/tmp/6BF81EAC4D18ECE5454156841CA674C3/'.
+[2015.10.28-23.02.47:928][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.28-23.02.49:002][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.28-23.02.49:008][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.28-23.02.49:014][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.28-23.02.49:020][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.28-23.02.49:025][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.28-23.02.49:029][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.28-23.02.49:033][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.28-23.02.49:037][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.28-23.02.49:041][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.28-23.02.49:044][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.28-23.02.49:048][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.28-23.02.49:053][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.28-23.02.49:054][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.28-23.02.49:073][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.28-23.02.49:077][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.28-23.02.49:081][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.28-23.02.49:088][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.28-23.02.49:088][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.28-23.02.49:194][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.28-23.02.49:233][  0]LogDerivedDataCache: Loaded boot cache 0.04s 37MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.28-23.02.49:233][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.28-23.02.49:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.28-23.02.49:233][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.28-23.02.49:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.28-23.02.49:233][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.28-23.02.49:357][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.28-23.02.49:369][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ntanc_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.28-23.02.49:559][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.28-23.02.49:561][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.28-23.02.49:680][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.28-23.02.49:680][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.28-23.02.49:925][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.28-23.02.50:702][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.28-23.02.50:807][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.10.28-23.02.50:989][  0]SourceControl: Info Source control is disabled
+[2015.10.28-23.02.50:989][  0]SourceControl: Info Source control is disabled
+[2015.10.28-23.02.51:005][  0]SourceControl: Info Source control is disabled
+[2015.10.28-23.02.51:020][  0]SourceControl: Info Source control is disabled
+[2015.10.28-23.02.51:227][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.28-23.02.51:331][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.28-23.02.51:331][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.28-23.02.51:388][  0]LogEngine: Initializing Engine...
+[2015.10.28-23.02.51:390][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.28-23.02.51:391][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.28-23.02.51:497][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.28-23.02.51:504][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.28-23.02.51:521][  0]LogInit: FAudioDevice initialized.
+[2015.10.28-23.02.51:544][  0]LogDerivedDataCache: Saved boot cache 0.02s 37MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.28-23.02.51:546][  0]LogInit: Texture streaming: Enabled
+[2015.10.28-23.02.51:552][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.28-23.02.51:552][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.28-23.02.51:553][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2c211ad74a9e5469c13dfaa1059b2d42|1bd0216fcaf5458183f89cc914276325|d020360b-9246-478a-84ac-08a9775e7849
+[2015.10.28-23.02.51:553][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.28-23.02.51:589][  0]LogInit: Transaction tracking system initialized
+[2015.10.28-23.02.51:618][  0]BlueprintLog: New page: Editor Load
+[2015.10.28-23.02.51:705][  0]LocalizationService: Info Localization service is disabled
+[2015.10.28-23.02.51:806][  0]LogConsoleResponse:Display: 
+[2015.10.28-23.02.51:919][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.28-23.02.51:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/' took 0.02s
+[2015.10.28-23.02.51:993][  0]SourceControl: Info Source control is disabled
+[2015.10.28-23.02.51:994][  0]LightingResults: New page: Lighting Build
+[2015.10.28-23.02.51:997][  0]MapCheck: New page: Map Check
+[2015.10.28-23.02.51:997][  0]LightingResults: New page: Lighting Build
+[2015.10.28-23.02.52:007][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E7FF2AE160
+[2015.10.28-23.02.52:025][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.28-23.02.52:027][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.28-23.02.52:028][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.28-23.02.52:029][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.28-23.02.52:030][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.28-23.02.52:799][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1'
+[2015.10.28-23.02.52:799][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent.uasset.
+[2015.10.28-23.02.52:799][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1
+[2015.10.28-23.02.52:799][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2'
+[2015.10.28-23.02.52:800][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent.uasset.
+[2015.10.28-23.02.52:800][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2
+[2015.10.28-23.02.52:800][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1'
+[2015.10.28-23.02.52:800][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent.uasset.
+[2015.10.28-23.02.52:800][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1
+[2015.10.28-23.02.52:801][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2'
+[2015.10.28-23.02.52:801][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent.uasset.
+[2015.10.28-23.02.52:801][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2
+[2015.10.28-23.02.52:802][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1'
+[2015.10.28-23.02.52:802][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2015.10.28-23.02.52:802][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1
+[2015.10.28-23.02.52:802][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2'
+[2015.10.28-23.02.52:802][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2015.10.28-23.02.52:802][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2
+[2015.10.28-23.02.52:803][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1'
+[2015.10.28-23.02.52:803][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2015.10.28-23.02.52:803][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1
+[2015.10.28-23.02.52:803][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2'
+[2015.10.28-23.02.52:803][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2015.10.28-23.02.52:803][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2
+[2015.10.28-23.02.52:806][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1'
+[2015.10.28-23.02.52:806][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1.Wakeup1 Referenced by WakeUp1_GEN_VARIABLE
+[2015.10.28-23.02.52:806][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2015.10.28-23.02.52:807][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1.Wakeup1 Referenced by WakeUp1_GEN_VARIABLE
+[2015.10.28-23.02.52:807][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1
+[2015.10.28-23.02.52:807][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2'
+[2015.10.28-23.02.52:807][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2.Wakeup2 Referenced by WakeUp2_GEN_VARIABLE
+[2015.10.28-23.02.52:807][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2' while loading ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2015.10.28-23.02.52:807][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2.Wakeup2 Referenced by WakeUp2_GEN_VARIABLE
+[2015.10.28-23.02.52:807][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2
+[2015.10.28-23.02.53:360][  0]LogBlueprint:Error: [compiler FifthEvent] Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' Target ' must have a connection.
+[2015.10.28-23.02.53:367][  0]LogBlueprint:Warning: [compiler FifthEvent] Warning [0007.38] Compile of FifthEvent failed. 1 Fatal Issue(s) 0 Warning(s) [in 10 ms]
+[2015.10.28-23.02.53:367][  0]LogBlueprint:Warning: [compiler FifthEvent] Warning [0007.38] Compile of FifthEvent failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.10.28-23.02.53:367][  0]LogBlueprint:Warning: [compiler FifthEvent] Warning [0007.38] Compile of FifthEvent failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.10.28-23.02.56:677][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.28-23.02.56:687][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.28-23.02.56:687][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.28-23.02.56:712][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.28-23.02.56:713][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.28-23.02.57:009][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 296.214ms to complete.
+[2015.10.28-23.02.57:009][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.017
+[2015.10.28-23.02.57:134][  0]LogCollectionManager: Loaded 0 collections in 0.002322 seconds
+[2015.10.28-23.02.57:180][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/Collections/' took 0.01s
+[2015.10.28-23.02.57:180][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/Developers/ntanc000/Collections/' took 0.01s
+[2015.10.28-23.02.57:180][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/Collections/' took 0.01s
+[2015.10.28-23.02.57:180][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1867 classes and 333 folders.
+[2015.10.28-23.02.57:192][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.28-23.02.57:199][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.28-23.02.57:269][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.28-23.02.57:273][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.28-23.02.57:364][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.28-23.02.57:369][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.28-23.02.57:392][  0]LogLoad: Full Startup: 11.40 seconds (BP compile: 1.08 seconds)
+[2015.10.28-23.02.57:805][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.28-23.02.57:933][  0]LogRenderer: Reallocating scene render targets to support 1488x824 (Frame:2).
+[2015.10.28-23.03.02:409][ 14]LogAssetRegistry: Asset discovery search completed in 11.6129 seconds
+[2015.10.28-23.03.02:409][ 14]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.28-23.03.02:409][ 14]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000292 seconds (updated 0 objects)
+[2015.10.28-23.04.14:515][942]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/ntanc_000/Downloads/Line1.wav)
+[2015.10.28-23.04.14:519][942]Error: Unable to read wave file 'Line1' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2015.10.28-23.04.19:110][942]LogAssetTools:Warning: Failed to import '../../../../../../Users/ntanc_000/Downloads/Line1.wav'. Failed to create asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1'
+[2015.10.28-23.04.54:738][122]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\ntanc_000\Desktop\Line1.wav)
+[2015.10.28-23.04.54:745][122]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line1...
+[2015.10.28-23.04.54:860][122]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1.Line1.
+[2015.10.28-23.05.30:025][991]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\ntanc_000\Downloads\Line1.wav)
+[2015.10.28-23.05.30:027][991]Error: Unable to read wave file 'Line1' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2015.10.28-23.05.31:717][991]LogAssetTools:Warning: Failed to import 'C:\Users\ntanc_000\Downloads\Line1.wav'. Failed to create asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1'
+[2015.10.28-23.05.57:976][156]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\ntanc_000\Desktop\Line1.wav)
+[2015.10.28-23.05.57:980][156]Error: Unable to read wave file 'Line1' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2015.10.28-23.06.29:795][156]LogAssetTools:Warning: Failed to import 'C:\Users\ntanc_000\Desktop\Line1.wav'. Failed to create asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1'
+[2015.10.28-23.06.53:148][429]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\ntanc_000\Downloads\Line1.wav)
+[2015.10.28-23.06.53:151][429]Error: Unable to read wave file 'Line1' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2015.10.28-23.06.55:339][429]LogAssetTools:Warning: Failed to import 'C:\Users\ntanc_000\Downloads\Line1.wav'. Failed to create asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1'
+[2015.10.28-23.07.03:812][700]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/ntanc_000/Downloads/Line1.wav)
+[2015.10.28-23.07.03:815][700]Error: Unable to read wave file 'Line1' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2015.10.28-23.07.11:794][700]LogAssetTools:Warning: Failed to import '../../../../../../Users/ntanc_000/Downloads/Line1.wav'. Failed to create asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1'
+[2015.10.28-23.07.30:301][213]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\ntanc_000\Desktop\Line1.wav)
+[2015.10.28-23.07.30:315][213]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line1...
+[2015.10.28-23.07.30:470][213]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1.Line1.
+[2015.10.28-23.07.30:479][213]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\ntanc_000\Desktop\Line2.wav)
+[2015.10.28-23.07.30:488][213]LogAudioDerivedData:Display: Building compressed audio format OGG wave Line2...
+[2015.10.28-23.07.30:558][213]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line2.Line2.
+[2015.10.28-23.07.42:945][831]LogMetaData: Removing '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1.Wakeup1:SoundCueGraph_1.SoundCueGraphNode_Root_1' ref from Metadata '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1_Cue.PackageMetaData'
+[2015.10.28-23.07.43:061][831]LogSavePackage: Save=4.065656ms
+[2015.10.28-23.07.43:061][831]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/Wakeup1F02E1496436F90E6BD923EA85BF93F84.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1.uasset'
+[2015.10.28-23.07.43:068][831]LogSavePackage: Total save time: 11.558175ms
+[2015.10.28-23.07.43:068][831]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup1.uasset
+[2015.10.28-23.07.48:433][124]LogMetaData: Removing '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2.Wakeup2:SoundCueGraph_2.SoundCueGraphNode_Root_2' ref from Metadata '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line2_Cue.PackageMetaData'
+[2015.10.28-23.07.48:573][124]LogSavePackage: Save=7.530350ms
+[2015.10.28-23.07.48:573][124]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/Wakeup24256E2B34E6CF78F8BE450B8943343FB.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2.uasset'
+[2015.10.28-23.07.48:586][124]LogSavePackage: Total save time: 21.477394ms
+[2015.10.28-23.07.48:586][124]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Wakeup2.uasset
+[2015.10.28-23.07.59:095][729]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.28-23.07.59:522][729]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2015.10.28-23.08.18:933][657]BlueprintLog: New page: Compile ZeroEvent
+[2015.10.28-23.08.19:040][657]BlueprintEditorCompileResults: Info [0333.05] Compile of ZeroEvent successful! [in 106 ms]
+[2015.10.28-23.08.20:091][706]LogSavePackage: Save=20.312515ms
+[2015.10.28-23.08.20:091][706]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/ZeroEvent1830D148464B8347BE386F9E83D99EB7.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent.uasset'
+[2015.10.28-23.08.20:099][706]LogSavePackage: Total save time: 39.759643ms
+[2015.10.28-23.08.20:099][706]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Blueprints/EventBlueprints/ZeroEvent.uasset
+[2015.10.28-23.08.32:326][277]LogSavePackage: Save=1240.369385ms
+[2015.10.28-23.08.32:326][277]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/ThirdPersonExampleMapCF6B3A6E49F55D6F5DEE3D8B96E3328B.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.10.28-23.08.32:334][277]LogSavePackage: Total save time: 1269.173838ms
+[2015.10.28-23.08.32:334][277]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2015.10.28-23.08.32:379][277]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.613
+[2015.10.28-23.08.32:427][277]LogSavePackage: Save=1.852145ms
+[2015.10.28-23.08.32:427][277]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/Line1_CueD90F7A22474C770608BE249003271E21.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1_Cue.uasset'
+[2015.10.28-23.08.32:435][277]LogSavePackage: Total save time: 10.699488ms
+[2015.10.28-23.08.32:435][277]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1_Cue.uasset
+[2015.10.28-23.08.32:459][277]LogSavePackage: Save=4.592138ms
+[2015.10.28-23.08.32:459][277]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/Line2DF013D6347D2C5826C45CFA8BDA97DE1.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line2.uasset'
+[2015.10.28-23.08.32:467][277]LogSavePackage: Total save time: 12.868863ms
+[2015.10.28-23.08.32:467][277]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line2.uasset
+[2015.10.28-23.08.32:489][277]LogSavePackage: Save=5.243147ms
+[2015.10.28-23.08.32:489][277]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/Line169A6AF5D47978549198884A204458BD7.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1.uasset'
+[2015.10.28-23.08.32:496][277]LogSavePackage: Total save time: 13.278697ms
+[2015.10.28-23.08.32:496][277]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line1.uasset
+[2015.10.28-23.08.32:510][277]LogSavePackage: Save=1.677177ms
+[2015.10.28-23.08.32:510][277]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/Line2_Cue7253202B4040645025B0459DABA196A9.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line2_Cue.uasset'
+[2015.10.28-23.08.32:516][277]LogSavePackage: Total save time: 8.588437ms
+[2015.10.28-23.08.32:516][277]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Custom_Props/sounds/dialogue/start-3rdevent/Line2_Cue.uasset
+[2015.10.28-23.11.44:620][291]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\ntanc_000\Downloads\Line15.wav)
+[2015.10.28-23.11.44:622][291]Error: Unable to read wave file 'Line15' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2015.10.28-23.11.47:662][291]LogAssetTools:Warning: Failed to import 'C:\Users\ntanc_000\Downloads\Line15.wav'. Failed to create asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/worldinteractions/Line15'
+[2015.10.28-23.13.15:485][861]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\ntanc_000\Downloads\Line19.wav)
+[2015.10.28-23.13.15:535][861]Error: Unable to read wave file 'Line19' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2015.10.28-23.13.19:498][861]LogAssetTools:Warning: Failed to import 'C:\Users\ntanc_000\Downloads\Line19.wav'. Failed to create asset '/Game/ThirdPersonBP/Custom_Props/sounds/dialogue/worldinteractions/Line19'
+[2015.10.28-23.13.27:960][262]LogSavePackage: Save=1214.860229ms
+[2015.10.28-23.13.27:960][262]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/ThirdPersonExampleMap34956E094C6A5F4464D1A38644D7FEE5.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.10.28-23.13.27:965][262]LogSavePackage: Total save time: 1231.064577ms
+[2015.10.28-23.13.27:965][262]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2015.10.28-23.13.28:533][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.13.28:533][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.28-23.13.41:160][781]BlueprintLog: New page: Compile FirstEvent
+[2015.10.28-23.13.41:287][781]BlueprintEditorCompileResults: Info [0655.30] Compile of FirstEvent successful! [in 126 ms]
+[2015.10.28-23.13.44:125][929]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.13.44:125][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.28-23.14.10:231][ 48]BlueprintLog: New page: Compile FifthEvent
+[2015.10.28-23.14.10:247][ 48]LogBlueprint:Error: [compiler FifthEvent] Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' Target ' must have a connection.
+[2015.10.28-23.14.10:389][ 48]LogBlueprint:Warning: [compiler FifthEvent] Warning [0684.40] Compile of FifthEvent failed. 1 Fatal Issue(s) 0 Warning(s) [in 157 ms]
+[2015.10.28-23.14.10:389][ 48]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' Target ' must have a connection.
+[2015.10.28-23.14.10:389][ 48]BlueprintEditorCompileResults:Warning: Warning [0684.40] Compile of FifthEvent failed. 1 Fatal Issue(s) 0 Warning(s) [in 157 ms]
+[2015.10.28-23.14.21:628][641]BlueprintLog: New page: Compile FifthEvent
+[2015.10.28-23.14.21:736][641]BlueprintEditorCompileResults: Info [0695.75] Compile of FifthEvent successful! [in 107 ms]
+[2015.10.28-23.14.23:949][751]LogSavePackage: Save=29.380934ms
+[2015.10.28-23.14.23:949][751]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/FifthEvent72E6A15640C71B7D6101EDB99691E57E.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Blueprints/EventBlueprints/FifthEvent.uasset'
+[2015.10.28-23.14.23:956][751]LogSavePackage: Total save time: 48.290152ms
+[2015.10.28-23.14.23:956][751]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Blueprints/EventBlueprints/FifthEvent.uasset
+[2015.10.28-23.14.25:690][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.14.25:690][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.28-23.14.25:690][840]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2015, 3:14:25 PM)
+[2015.10.28-23.14.25:690][840]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.28-23.14.25:832][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141442s)
+[2015.10.28-23.14.25:833][840]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.28-23.14.25:833][840]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2015.10.28-23.14.25:834][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.143187s)
+[2015.10.28-23.14.25:871][840]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.28-23.14.25:878][840]LogInit: FAudioDevice initialized.
+[2015.10.28-23.14.25:976][840]LogWorld: Game class is 'NewGameMode_C'
+[2015.10.28-23.14.25:997][840]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.28-23.14.25:997][840]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.28-23.14.26:004][840]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.10.28-19.14.26
+[2015.10.28-23.14.26:004][840]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.28-23.14.26:004][840]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.28-23.14.26:006][840]LogWorld: Bringing up level for play took: 0.028266
+[2015.10.28-23.14.26:008][840]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.509
+[2015.10.28-23.14.26:008][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.14.27:840][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.14.27:900][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.14.27:933][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E82BBC3E20
+[2015.10.28-23.14.29:290][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.14.29:290][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.28-23.14.29:290][998]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2015, 3:14:29 PM)
+[2015.10.28-23.14.29:290][998]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.28-23.14.29:435][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144326s)
+[2015.10.28-23.14.29:435][998]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.28-23.14.29:435][998]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2015.10.28-23.14.29:436][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.145515s)
+[2015.10.28-23.14.29:476][998]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.28-23.14.29:482][998]LogInit: FAudioDevice initialized.
+[2015.10.28-23.14.29:519][998]LogWorld: Game class is 'NewGameMode_C'
+[2015.10.28-23.14.29:538][998]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.28-23.14.29:538][998]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.10.28-23.14.29:545][998]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.10.28-19.14.29
+[2015.10.28-23.14.29:545][998]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.28-23.14.29:545][998]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.28-23.14.29:547][998]LogWorld: Bringing up level for play took: 0.026764
+[2015.10.28-23.14.29:549][998]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.031
+[2015.10.28-23.14.29:549][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.14.29:952][ 20]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_3
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.10.28-23.14.29:952][ 20]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.10.28-23.14.29:971][ 21]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_3
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.10.28-23.14.29:971][ 21]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.10.28-23.14.29:989][ 22]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_3
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.10.28-23.14.29:989][ 22]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.10.28-23.14.30:007][ 23]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_3
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.10.28-23.14.30:007][ 23]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.10.28-23.14.30:025][ 24]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_3
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.10.28-23.14.30:025][ 24]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.10.28-23.14.30:041][ 25]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_3
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1139
+[2015.10.28-23.14.30:042][ 25]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.10.28-23.14.30:042][ 25]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_3
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:119F
+[2015.10.28-23.14.30:042][ 25]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.10.28-23.15.17:044][612]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	BP_Laptop_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Laptop_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemBlueprints/BP_Laptop.BP_Laptop_C:ExecuteUbergraph_BP_Laptop:0445
+[2015.10.28-23.15.17:044][612]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2' from node Call LaptopDispatcher in graph 'EventGraph' in blueprint BP_Laptop
+[2015.10.28-23.16.07:206][310]LogBlueprintUserMessages: [BP_Television_C_1] Turned TV off.
+[2015.10.28-23.16.10:942][508]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.16.10:992][508]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.28-23.16.11:049][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E82BAFDD00
+[2015.10.28-23.18.44:942][591]LogSavePackage: Save=1232.061523ms
+[2015.10.28-23.18.44:942][591]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Saved/ThirdPersonExampleMapD40DF87A4D2AA6DE469F348BC6830B56.tmp' to '../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.10.28-23.18.44:951][591]LogSavePackage: Total save time: 1264.743667ms
+[2015.10.28-23.18.44:951][591]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/DigitalHorrorGame/DigitalHorrorGame/GDDHorrorGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2015.10.28-23.18.44:998][591]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.630
+[2015.10.28-23.18.45:250][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.10.28-23.18.45:305][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.10.28-23.18.45:359][591]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.28-23.18.45:359][591]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.28-23.18.45:662][592]Cmd: QUIT_EDITOR
+[2015.10.28-23.18.46:677][592]LogExit: Preparing to exit.
+[2015.10.28-23.18.47:301][592]LogExit: Editor shut down
+[2015.10.28-23.18.47:301][592]LogExit: Transaction tracking system shut down
+[2015.10.28-23.18.47:303][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E7994C8360
+[2015.10.28-23.18.47:320][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E7C20613A0
+[2015.10.28-23.18.47:323][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E825C80400
+[2015.10.28-23.18.47:323][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E7AA3EB880
+[2015.10.28-23.18.47:324][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E7B15972E0
+[2015.10.28-23.18.47:324][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E7E85D3EC0
+[2015.10.28-23.18.47:324][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E796ACCEA0
+[2015.10.28-23.18.47:324][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E7E85D1300
+[2015.10.28-23.18.47:566][592]LogExit: Object subsystem successfully closed.
+[2015.10.28-23.18.47:599][592]LogD3D11RHI: Shutdown
+[2015.10.28-23.18.47:599][592]LogD3D11RHI: CleanupD3DDevice
+[2015.10.28-23.18.47:692][592]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.28-23.18.47:723][592]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.10.28-23.18.47:723][592]LogModuleManager: Shutting down and abandoning module SoundCueEditor (198)
+[2015.10.28-23.18.47:723][592]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.28-23.18.47:723][592]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.28-23.18.47:723][592]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.28-23.18.47:723][592]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.28-23.18.47:723][592]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.28-23.18.47:724][592]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.28-23.18.47:725][592]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.28-23.18.47:725][592]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.28-23.18.47:725][592]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.28-23.18.47:725][592]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.28-23.18.47:725][592]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.28-23.18.47:725][592]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.28-23.18.48:205][592]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.28-23.18.48:206][592]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.28-23.18.48:207][592]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.28-23.18.48:282][592]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.28-23.18.48:282][592]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.28-23.18.48:282][592]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.28-23.18.48:282][592]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.28-23.18.48:282][592]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.28-23.18.48:282][592]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.28-23.18.48:282][592]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.28-23.18.48:282][592]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.28-23.18.48:297][592]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.28-23.18.48:298][592]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.28-23.18.48:299][592]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.28-23.18.48:432][592]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.28-23.18.48:432][592]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.28-23.18.48:432][592]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.28-23.18.48:534][592]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.28-23.18.48:534][592]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.28-23.18.48:534][592]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.28-23.18.48:550][592]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.28-23.18.48:550][592]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.28-23.18.48:550][592]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.28-23.18.48:550][592]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.28-23.18.48:550][592]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.28-23.18.48:550][592]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.28-23.18.48:551][592]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.28-23.18.48:559][592]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.28-23.18.48:565][592]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.28-23.18.48:642][592]LogDerivedDataCache: Shutdown
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.28-23.18.48:642][592]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.28-23.18.48:643][592]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.28-23.18.48:644][592]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.28-23.18.48:644][592]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.28-23.18.48:644][592]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.28-23.18.50:649][592]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.28-23.18.50:650][592]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.28-23.18.50:650][592]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.28-23.18.50:650][592]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.28-23.18.50:650][592]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.28-23.18.50:650][592]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.28-23.18.50:655][592]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.28-23.18.50:657][592]LogExit: Exiting.
+[2015.10.28-23.18.50:720][592]Log file closed, 10/28/15 19:18:50

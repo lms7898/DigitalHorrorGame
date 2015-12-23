@@ -1,0 +1,677 @@
+﻿[2015.12.09-04.30.23:908][  0]Log file open, 12/08/15 23:30:23
+[2015.12.09-04.30.23:908][  0]LogInit:Display: Running engine for game: GDDHorrorGame
+[2015.12.09-04.30.23:908][  0]LogInit:Display: RandInit(771944391) SRandInit(771944392).
+[2015.12.09-04.30.23:908][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.09-04.30.23:908][  0]LogStats: Stats thread started at 0.168619
+[2015.12.09-04.30.23:908][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.09-04.30.23:908][  0]LogInit: API Version: 2672455
+[2015.12.09-04.30.23:908][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.09-04.30.23:908][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.09-04.30.23:908][  0]LogInit: Build Configuration: Development
+[2015.12.09-04.30.23:908][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.09-04.30.23:908][  0]LogInit: Command line:  
+[2015.12.09-04.30.23:908][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.09-04.30.23:908][  0]LogInit: Rocket: 1
+[2015.12.09-04.30.23:908][  0]LogInit: Using libcurl 7.41.0
+[2015.12.09-04.30.23:908][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.09-04.30.23:908][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.09-04.30.23:908][  0]LogInit:  - other features:
+[2015.12.09-04.30.23:908][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.09-04.30.23:908][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.09-04.30.23:908][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.09-04.30.23:908][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.09-04.30.23:908][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.09-04.30.23:908][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.09-04.30.23:908][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.09-04.30.23:908][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.09-04.30.23:908][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.09-04.30.23:908][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.09-04.30.23:924][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.09-04.30.23:924][  0]LogInit: Object subsystem initialized
+[2015.12.09-04.30.23:924][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.09-04.30.23:924][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.09-04.30.23:945][  0]LogInit: Computer: NICKSCOMPUTER
+[2015.12.09-04.30.23:945][  0]LogInit: User: ntanc000
+[2015.12.09-04.30.23:945][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.09-04.30.23:945][  0]LogInit: High frequency timer resolution =2.537592 MHz
+[2015.12.09-04.30.23:945][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.12.09-04.30.23:945][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.09-04.30.23:945][  0]LogMemory: Process Physical Memory: 54.32 MB used, 54.32 MB peak
+[2015.12.09-04.30.23:945][  0]LogMemory: Process Virtual Memory: 55.25 MB used, 55.25 MB peak
+[2015.12.09-04.30.23:945][  0]LogMemory: Physical Memory: 2735.80 MB used, 16269.45 MB total
+[2015.12.09-04.30.23:945][  0]LogMemory: Virtual Memory: 368.27 MB used, 134217728.00 MB total
+[2015.12.09-04.30.24:266][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.09-04.30.25:281][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M  (Feature Level 11_0)
+[2015.12.09-04.30.25:281][  0]LogD3D11RHI: Adapter has 4012MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 2 output[s]
+[2015.12.09-04.30.25:291][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.12.09-04.30.25:291][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2015.12.09-04.30.25:293][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.09-04.30.25:293][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2015.12.09-04.30.25:293][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.09-04.30.25:306][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.09-04.30.25:310][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.09-04.30.25:323][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.09-04.30.25:376][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/ntanc_000/Desktop/WhosThere/Intermediate/Shaders/WorkingDirectory/7888/).
+[2015.12.09-04.30.25:376][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ntanc_000/Desktop/WhosThere/Intermediate/Shaders/tmp/4823D55A45717B1F6C7A3FABCE8E5311/'.
+[2015.12.09-04.30.25:377][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.09-04.30.26:844][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.09-04.30.26:851][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.09-04.30.26:884][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.09-04.30.26:897][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.09-04.30.26:905][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.09-04.30.26:913][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.09-04.30.26:918][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.09-04.30.26:925][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.09-04.30.26:931][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.09-04.30.26:937][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.09-04.30.26:943][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.09-04.30.26:950][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.09-04.30.26:953][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.09-04.30.27:052][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.09-04.30.27:057][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.09-04.30.27:063][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.09-04.30.27:069][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.09-04.30.27:069][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.09-04.30.27:247][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.09-04.30.27:584][  0]LogDerivedDataCache: Loaded boot cache 0.34s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.09-04.30.27:584][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.09-04.30.27:584][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ntanc_000/Desktop/WhosThere/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.09-04.30.27:585][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.09-04.30.27:585][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ntanc_000/Desktop/WhosThere/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.09-04.30.27:585][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.09-04.30.27:735][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.09-04.30.27:747][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ntanc_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.09-04.30.28:593][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.09-04.30.28:608][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.09-04.30.28:886][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.09-04.30.28:886][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.09-04.30.29:391][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.09-04.30.31:057][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.09-04.30.31:220][  0]LogAssetRegistry: FAssetRegistry took 0.0129 seconds to start up
+[2015.12.09-04.30.31:578][  0]SourceControl: Info Source control is disabled
+[2015.12.09-04.30.31:578][  0]SourceControl: Info Source control is disabled
+[2015.12.09-04.30.31:597][  0]SourceControl: Info Source control is disabled
+[2015.12.09-04.30.31:618][  0]SourceControl: Info Source control is disabled
+[2015.12.09-04.30.31:854][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-04.30.31:990][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.12.09-04.30.31:990][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.12.09-04.30.32:110][  0]LogEngine: Initializing Engine...
+[2015.12.09-04.30.32:115][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.09-04.30.32:117][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.09-04.30.32:416][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.09-04.30.32:435][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.09-04.30.32:456][  0]LogInit: FAudioDevice initialized.
+[2015.12.09-04.30.32:486][  0]LogDerivedDataCache: Saved boot cache 0.03s 57MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.09-04.30.32:491][  0]LogInit: Texture streaming: Enabled
+[2015.12.09-04.30.32:501][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.09-04.30.32:501][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.09-04.30.32:501][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2c211ad74a9e5469c13dfaa1059b2d42|1bd0216fcaf5458183f89cc914276325|d020360b-9246-478a-84ac-08a9775e7849
+[2015.12.09-04.30.32:501][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.09-04.30.32:520][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.09-04.30.32:520][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.09-04.30.32:552][  0]LogInit: Transaction tracking system initialized
+[2015.12.09-04.30.32:742][  0]BlueprintLog: New page: Editor Load
+[2015.12.09-04.30.33:051][  0]LocalizationService: Info Localization service is disabled
+[2015.12.09-04.30.33:213][  0]LogConsoleResponse:Display: 
+[2015.12.09-04.30.33:422][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.09-04.30.33:558][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/WhosThere/Content/' took 0.03s
+[2015.12.09-04.30.33:558][  0]SourceControl: Info Source control is disabled
+[2015.12.09-04.30.33:564][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.09-04.30.33:564][  0]LightingResults: New page: Lighting Build
+[2015.12.09-04.30.33:574][  0]MapCheck: New page: Map Check
+[2015.12.09-04.30.33:574][  0]LightingResults: New page: Lighting Build
+[2015.12.09-04.30.33:606][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001813CD28860
+[2015.12.09-04.30.33:633][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-04.30.33:634][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-04.30.33:636][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-04.30.33:637][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-04.30.33:637][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-04.30.39:538][  0]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.12.09-04.30.40:731][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.09-04.30.40:766][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.09-04.30.40:766][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.09-04.30.40:830][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.09-04.30.40:833][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.09-04.30.41:012][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 179.861ms to complete.
+[2015.12.09-04.30.41:012][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 7.450
+[2015.12.09-04.30.41:195][  0]LogCollectionManager: Loaded 0 collections in 0.002581 seconds
+[2015.12.09-04.30.41:248][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/WhosThere/Saved/Collections/' took 0.01s
+[2015.12.09-04.30.41:248][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/WhosThere/Content/Developers/ntanc000/Collections/' took 0.01s
+[2015.12.09-04.30.41:248][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/WhosThere/Content/Collections/' took 0.01s
+[2015.12.09-04.30.41:248][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 1867 classes and 333 folders.
+[2015.12.09-04.30.41:274][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.12.09-04.30.41:290][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.09-04.30.41:428][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.09-04.30.41:444][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.12.09-04.30.41:641][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.09-04.30.41:656][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.09-04.30.41:682][  0]LogLoad: Full Startup: 18.41 seconds (BP compile: 1.06 seconds)
+[2015.12.09-04.30.41:761][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.09-04.30.41:902][  0]LogRenderer: Reallocating scene render targets to support 924x576 (Frame:2).
+[2015.12.09-04.30.42:852][ 15]LogAssetRegistry: Asset discovery search completed in 11.6429 seconds
+[2015.12.09-04.30.42:852][ 15]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.12.09-04.30.42:852][ 15]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2015.12.09-04.30.46:066][174]LogRenderer: Reallocating scene render targets to support 1528x888 (Frame:16).
+[2015.12.09-04.31.12:939][929]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.09-04.31.12:939][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.09-04.31.12:939][929]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 8, 2015, 6:31:12 PM)
+[2015.12.09-04.31.12:939][929]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.09-04.31.13:072][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133083s)
+[2015.12.09-04.31.13:073][929]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.09-04.31.13:074][929]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2015.12.09-04.31.13:074][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.135607s)
+[2015.12.09-04.31.13:141][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001816C8E2520
+[2015.12.09-04.31.13:183][929]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.09-04.31.13:189][929]LogInit: FAudioDevice initialized.
+[2015.12.09-04.31.13:273][929]LogWorld: Game class is 'NewGameMode_C'
+[2015.12.09-04.31.13:288][929]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.09-04.31.13:288][929]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.09-04.31.13:291][929]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.12.08-23.31.13
+[2015.12.09-04.31.13:291][929]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.09-04.31.13:292][929]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.09-04.31.13:296][929]LogWorld: Bringing up level for play took: 0.018936
+[2015.12.09-04.31.13:304][929]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.14
+[2015.12.09-04.31.13:304][929]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.09-04.31.14:107][992]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:107][992]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:114][993]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:114][993]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:125][994]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:125][994]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:136][995]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:136][995]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:144][996]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:144][996]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:153][997]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:154][997]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:162][998]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:162][998]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:172][999]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:172][999]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:180][  0]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:180][  0]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:189][  1]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:190][  1]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:200][  2]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:200][  2]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:208][  3]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:208][  3]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:217][  4]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:217][  4]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:225][  5]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1350
+[2015.12.09-04.31.14:225][  5]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:235][  6]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1139
+[2015.12.09-04.31.14:235][  6]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.31.14:235][  6]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:119F
+[2015.12.09-04.31.14:235][  6]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.12.09-04.32.30:933][605]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ntanc_000\Downloads\outUV.png)
+[2015.12.09-04.32.34:849][605]LogTexture:Display: Building textures: outUV (AutoDXT)
+[2015.12.09-04.33.45:496][610]LogMaterial: Missing cached shader map for material outUV_Mat, compiling. 
+[2015.12.09-04.33.52:681][130]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.09-04.33.52:722][130]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.09-04.33.52:750][130]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001818496AB60
+[2015.12.09-04.33.54:102][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (environment_final)
+[2015.12.09-04.34.33:006][ 75]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (environment_final)
+[2015.12.09-04.34.34:157][165]LogEditorViewport: Clicking on Actor (LMB): BP_CrawlspacePhotos_C (BP_CrawlspacePhotos)
+[2015.12.09-04.37.50:533][680]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ntanc_000\Downloads\asleep1.jpg)
+[2015.12.09-04.37.50:547][680]LogTexture:Display: Building textures: asleep1 (BGRA8)
+[2015.12.09-04.37.59:199][706]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ntanc_000\Downloads\creepypic1.jpg)
+[2015.12.09-04.37.59:541][706]LogTexture:Display: Building textures: creepypic1 (AutoDXT)
+[2015.12.09-04.38.06:581][718]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ntanc_000\Downloads\behind1.jpg)
+[2015.12.09-04.38.06:610][718]LogTexture:Display: Building textures: behind1 (BGRA8)
+[2015.12.09-04.38.11:005][731]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-04.38.11:535][731]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2015.12.09-04.38.28:304][392]LogMaterial: Missing cached shader map for material asleep1_Mat, compiling. 
+[2015.12.09-04.38.42:835][  1]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.12.09-04.39.10:768][234]LogMaterial: Missing cached shader map for material behind1_Mat, compiling. 
+[2015.12.09-04.39.33:525][206]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.12.09-04.39.40:052][469]LogMaterial: Missing cached shader map for material creepypic1_Mat, compiling. 
+[2015.12.09-04.40.48:127][235]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ntanc_000\Downloads\creepypic2.jpg)
+[2015.12.09-04.40.48:148][235]LogTexture:Display: Building textures: creepypic2 (AutoDXT)
+[2015.12.09-04.40.54:154][410]LogMaterial: Missing cached shader map for material creepypic2_Mat, compiling. 
+[2015.12.09-04.40.57:790][549]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.12.09-04.41.22:454][619]LogEditorViewport: Clicking on Actor (LMB): BP_CrawlspacePhotos_C (BP_CrawlspacePhotos)
+[2015.12.09-04.43.25:060][383]LogSavePackage: Save=1295.228271ms
+[2015.12.09-04.43.25:060][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/ThirdPersonExampleMap_Auto103DB834B47F84FF6760D67BB513054DF.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.12.09-04.43.25:067][383]LogSavePackage: Total save time: 1317.404058ms
+[2015.12.09-04.43.25:067][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2015.12.09-04.43.25:071][383]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.418
+[2015.12.09-04.43.25:071][383]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.418
+[2015.12.09-04.43.25:098][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ItemBlueprints/BP_CrawlspacePhotos] ([1] browsable assets)...
+[2015.12.09-04.43.25:128][383]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ItemBlueprints/BP_CrawlspacePhotos.BP_CrawlspacePhotos]
+[2015.12.09-04.43.25:128][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ItemBlueprints/BP_CrawlspacePhotos]
+[2015.12.09-04.43.25:180][383]LogSavePackage: Save=46.261574ms
+[2015.12.09-04.43.25:180][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/BP_CrawlspacePhotos_Auto178D20AE64122E06E25C5F8A6BE171EF9.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ItemBlueprints/BP_CrawlspacePhotos_Auto1.uasset'
+[2015.12.09-04.43.25:182][383]LogSavePackage: Total save time: 51.799897ms
+[2015.12.09-04.43.25:182][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ItemBlueprints/BP_CrawlspacePhotos_Auto1.uasset
+[2015.12.09-04.43.25:188][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/asleep1] ([1] browsable assets)...
+[2015.12.09-04.43.25:197][383]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Custom_Props/asleep1.asleep1]
+[2015.12.09-04.43.25:197][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/asleep1]
+[2015.12.09-04.43.25:208][383]LogSavePackage: Save=9.718662ms
+[2015.12.09-04.43.25:208][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/asleep1_Auto1E7568F3E4C37FF505E604EB016F875C4.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/asleep1_Auto1.uasset'
+[2015.12.09-04.43.25:210][383]LogSavePackage: Total save time: 11.927448ms
+[2015.12.09-04.43.25:210][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/asleep1_Auto1.uasset
+[2015.12.09-04.43.25:216][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/outUV] ([1] browsable assets)...
+[2015.12.09-04.43.25:228][383]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/outUV.outUV]
+[2015.12.09-04.43.25:228][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/outUV]
+[2015.12.09-04.43.25:228][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/outUV" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/Meshes/outUV_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.12.09-04.43.25:351][383]LogSavePackage: Save=121.853317ms
+[2015.12.09-04.43.25:351][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/outUV_Auto1C929CFD941EFE5A57E56D080E202E3A0.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/Meshes/outUV_Auto1.uasset'
+[2015.12.09-04.43.25:353][383]LogSavePackage: Total save time: 124.336772ms
+[2015.12.09-04.43.25:353][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/Meshes/outUV_Auto1.uasset
+[2015.12.09-04.43.25:361][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/outUV_Mat] ([1] browsable assets)...
+[2015.12.09-04.43.25:389][383]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/outUV_Mat.outUV_Mat]
+[2015.12.09-04.43.25:389][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/outUV_Mat]
+[2015.12.09-04.43.25:389][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/outUV_Mat" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/Meshes/outUV_Mat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.12.09-04.43.25:403][383]LogSavePackage: Save=12.227340ms
+[2015.12.09-04.43.25:403][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/outUV_Mat_Auto1DB7429BC4916C9493C14BDAB377CEE0A.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/Meshes/outUV_Mat_Auto1.uasset'
+[2015.12.09-04.43.25:404][383]LogSavePackage: Total save time: 14.093284ms
+[2015.12.09-04.43.25:404][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/Meshes/outUV_Mat_Auto1.uasset
+[2015.12.09-04.43.25:410][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/creepypic1] ([1] browsable assets)...
+[2015.12.09-04.43.25:420][383]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Custom_Props/creepypic1.creepypic1]
+[2015.12.09-04.43.25:420][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/creepypic1]
+[2015.12.09-04.43.25:461][383]LogSavePackage: Save=39.732944ms
+[2015.12.09-04.43.25:461][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/creepypic1_Auto1E56CE2104E3018426C728393E6DE0E2B.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/creepypic1_Auto1.uasset'
+[2015.12.09-04.43.25:463][383]LogSavePackage: Total save time: 41.781344ms
+[2015.12.09-04.43.25:463][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/creepypic1_Auto1.uasset
+[2015.12.09-04.43.25:468][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/behind1] ([1] browsable assets)...
+[2015.12.09-04.43.25:475][383]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Custom_Props/behind1.behind1]
+[2015.12.09-04.43.25:475][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/behind1]
+[2015.12.09-04.43.25:483][383]LogSavePackage: Save=6.834826ms
+[2015.12.09-04.43.25:483][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/behind1_Auto19DE7B5B249EA9CC63FC28E97BD0EF8B8.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/behind1_Auto1.uasset'
+[2015.12.09-04.43.25:485][383]LogSavePackage: Total save time: 8.598704ms
+[2015.12.09-04.43.25:485][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/behind1_Auto1.uasset
+[2015.12.09-04.43.25:490][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/asleep1_Mat] ([1] browsable assets)...
+[2015.12.09-04.43.25:520][383]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Custom_Props/asleep1_Mat.asleep1_Mat]
+[2015.12.09-04.43.25:520][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/asleep1_Mat]
+[2015.12.09-04.43.25:533][383]LogSavePackage: Save=11.891588ms
+[2015.12.09-04.43.25:533][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/asleep1_Mat_Auto126212E18424EBFAC8CD6E6B156C0800E.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/asleep1_Mat_Auto1.uasset'
+[2015.12.09-04.43.25:534][383]LogSavePackage: Total save time: 13.356756ms
+[2015.12.09-04.43.25:534][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/asleep1_Mat_Auto1.uasset
+[2015.12.09-04.43.25:541][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/behind1_Mat] ([1] browsable assets)...
+[2015.12.09-04.43.25:570][383]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Custom_Props/behind1_Mat.behind1_Mat]
+[2015.12.09-04.43.25:570][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/behind1_Mat]
+[2015.12.09-04.43.25:586][383]LogSavePackage: Save=11.322939ms
+[2015.12.09-04.43.25:586][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/behind1_Mat_Auto1E21B558149321A011612689684CD9615.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/behind1_Mat_Auto1.uasset'
+[2015.12.09-04.43.25:587][383]LogSavePackage: Total save time: 14.567353ms
+[2015.12.09-04.43.25:587][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/behind1_Mat_Auto1.uasset
+[2015.12.09-04.43.25:593][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/creepypic1_Mat] ([1] browsable assets)...
+[2015.12.09-04.43.25:620][383]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Custom_Props/creepypic1_Mat.creepypic1_Mat]
+[2015.12.09-04.43.25:620][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/creepypic1_Mat]
+[2015.12.09-04.43.25:633][383]LogSavePackage: Save=11.742234ms
+[2015.12.09-04.43.25:633][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/creepypic1_Mat_Auto16B844209495BB88D7F92B89AB717DDBB.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/creepypic1_Mat_Auto1.uasset'
+[2015.12.09-04.43.25:634][383]LogSavePackage: Total save time: 13.061203ms
+[2015.12.09-04.43.25:634][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/creepypic1_Mat_Auto1.uasset
+[2015.12.09-04.43.25:640][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/creepypic2] ([1] browsable assets)...
+[2015.12.09-04.43.25:649][383]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Custom_Props/creepypic2.creepypic2]
+[2015.12.09-04.43.25:649][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/creepypic2]
+[2015.12.09-04.43.25:662][383]LogSavePackage: Save=11.441161ms
+[2015.12.09-04.43.25:662][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/creepypic2_Auto121A47F63404CB207D907D780D2E80753.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/creepypic2_Auto1.uasset'
+[2015.12.09-04.43.25:664][383]LogSavePackage: Total save time: 13.569161ms
+[2015.12.09-04.43.25:664][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/creepypic2_Auto1.uasset
+[2015.12.09-04.43.25:670][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Custom_Props/creepypic2_Mat] ([1] browsable assets)...
+[2015.12.09-04.43.25:699][383]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Custom_Props/creepypic2_Mat.creepypic2_Mat]
+[2015.12.09-04.43.25:699][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Custom_Props/creepypic2_Mat]
+[2015.12.09-04.43.25:713][383]LogSavePackage: Save=12.647423ms
+[2015.12.09-04.43.25:713][383]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/creepypic2_Mat_Auto19883E8FB44F3495A9DF81EB29CF03D6F.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/creepypic2_Mat_Auto1.uasset'
+[2015.12.09-04.43.25:714][383]LogSavePackage: Total save time: 14.492877ms
+[2015.12.09-04.43.25:714][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/Autosaves/Game/ThirdPersonBP/Custom_Props/creepypic2_Mat_Auto1.uasset
+[2015.12.09-04.43.25:714][383]LogFileHelpers: Auto-saving content packages took 0.623
+[2015.12.09-04.44.03:885][ 91]Cmd: DELETE
+[2015.12.09-04.44.03:885][ 91]Cmd: ACTOR DELETE
+[2015.12.09-04.44.03:896][ 91]LogEditorActor: Deleted Actor: Brush
+[2015.12.09-04.44.03:966][ 91]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2015.12.09-04.44.04:640][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.12.09-04.44.05:482][160]Cmd: DELETE
+[2015.12.09-04.44.05:482][160]Cmd: ACTOR DELETE
+[2015.12.09-04.44.05:483][160]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.09-04.44.05:534][160]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2015.12.09-04.44.56:628][687]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ntanc_000\Downloads\curtain_silk.jpg)
+[2015.12.09-04.44.56:634][687]LogTexture:Display: Building textures: curtain_silk (BGRA8)
+[2015.12.09-04.45.01:202][835]LogMaterial: Missing cached shader map for material curtain_silk_Mat, compiling. 
+[2015.12.09-04.45.19:523][714]LogActorFactory: Actor Factory created Cube
+[2015.12.09-04.45.20:938][784]LogActorFactory: Actor Factory created Cube
+[2015.12.09-04.45.22:819][868]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_5.StaticMeshComponent0 Cube'.
+[2015.12.09-04.45.22:819][868]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_5.StaticMeshComponent0 Cube'.
+[2015.12.09-04.45.23:746][911]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_5.StaticMeshComponent0 Cube'.
+[2015.12.09-04.45.23:746][911]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_5.StaticMeshComponent0 Cube'.
+[2015.12.09-04.46.12:759][159]Cmd: DELETE
+[2015.12.09-04.46.12:759][159]Cmd: ACTOR DELETE
+[2015.12.09-04.46.12:761][159]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.09-04.46.12:805][159]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2015.12.09-04.46.32:312][271]LogActorFactory: Actor Factory created Cube
+[2015.12.09-04.46.34:736][395]LogActorFactory: Actor Factory created Cube
+[2015.12.09-04.46.36:381][471]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_8.StaticMeshComponent0 Cube'.
+[2015.12.09-04.46.36:381][471]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_8.StaticMeshComponent0 Cube'.
+[2015.12.09-04.46.36:675][485]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_8.StaticMeshComponent0 Cube'.
+[2015.12.09-04.46.36:675][485]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_8.StaticMeshComponent0 Cube'.
+[2015.12.09-04.46.51:997][215]LogMaterial: Missing cached shader map for material TVscreen, compiling. 
+[2015.12.09-04.46.58:924][509]LogEditorViewport: Clicking on Actor (LMB): BP_Television_C (BP_Television)
+[2015.12.09-04.47.01:323][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.12.09-04.47.09:229][977]LogActorFactory: Actor Factory created Cube
+[2015.12.09-04.47.10:840][ 46]LogActorFactory: Actor Factory created Cube
+[2015.12.09-04.47.27:982][805]Cmd: DUPLICATE
+[2015.12.09-04.47.27:982][805]Cmd: ACTOR DUPLICATE
+[2015.12.09-04.47.34:222][ 89]Cmd: DUPLICATE
+[2015.12.09-04.47.34:222][ 89]Cmd: ACTOR DUPLICATE
+[2015.12.09-04.48.19:863][334]Cmd: TRANSACTION UNDO
+[2015.12.09-04.48.19:864][334]LogEditorTransaction: Undo Create Actors
+[2015.12.09-04.48.21:682][404]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2015.12.09-04.48.24:472][514]Cmd: TRANSACTION UNDO
+[2015.12.09-04.48.24:472][514]LogEditorTransaction: Undo Create Actors
+[2015.12.09-04.48.33:914][965]Cmd: TRANSACTION UNDO
+[2015.12.09-04.48.33:914][965]LogEditorTransaction: Undo Create Actors
+[2015.12.09-04.48.43:089][330]LogSavePackage: Save=1135.280273ms
+[2015.12.09-04.48.43:089][330]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/ThirdPersonExampleMap5BE828FA4E88FD73A5ADA88B4BC7D856.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.12.09-04.48.43:095][330]LogSavePackage: Total save time: 1153.392665ms
+[2015.12.09-04.48.43:095][330]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2015.12.09-04.48.47:277][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/outUV" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Meshes/outUV.uasset" SILENT=true
+[2015.12.09-04.48.50:972][415]LogSavePackage: Save=3694.115479ms
+[2015.12.09-04.48.50:972][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/outUV580A00AB44FAA06712319E9A10DD5E4E.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Meshes/outUV.uasset'
+[2015.12.09-04.48.50:975][415]LogSavePackage: Total save time: 3697.042316ms
+[2015.12.09-04.48.50:975][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Meshes/outUV.uasset
+[2015.12.09-04.48.51:013][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/outUV_Mat" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Meshes/outUV_Mat.uasset" SILENT=true
+[2015.12.09-04.48.51:026][415]LogSavePackage: Save=11.366287ms
+[2015.12.09-04.48.51:026][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/outUV_Mat08816B084EB6CF87BA57F1A47E2A5D5A.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Meshes/outUV_Mat.uasset'
+[2015.12.09-04.48.51:028][415]LogSavePackage: Total save time: 14.138207ms
+[2015.12.09-04.48.51:028][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/Meshes/outUV_Mat.uasset
+[2015.12.09-04.48.51:075][415]LogSavePackage: Save=31.771460ms
+[2015.12.09-04.48.51:075][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/BP_CrawlspacePhotos0CEA73AA476C6CBB540FA5A7701E8E2F.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Blueprints/ItemBlueprints/BP_CrawlspacePhotos.uasset'
+[2015.12.09-04.48.51:077][415]LogSavePackage: Total save time: 38.709532ms
+[2015.12.09-04.48.51:077][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Blueprints/ItemBlueprints/BP_CrawlspacePhotos.uasset
+[2015.12.09-04.48.51:093][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Custom_Props/asleep1" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/asleep1.uasset" SILENT=true
+[2015.12.09-04.48.51:119][415]LogSavePackage: Save=25.007959ms
+[2015.12.09-04.48.51:119][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/asleep1C29990B34EA5BB8AE562C2871B89C3EB.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/asleep1.uasset'
+[2015.12.09-04.48.51:121][415]LogSavePackage: Total save time: 27.321968ms
+[2015.12.09-04.48.51:121][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/asleep1.uasset
+[2015.12.09-04.48.51:159][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Custom_Props/asleep1_Mat" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/asleep1_Mat.uasset" SILENT=true
+[2015.12.09-04.48.51:171][415]LogSavePackage: Save=10.899703ms
+[2015.12.09-04.48.51:171][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/asleep1_MatB5A91DC948AC737D341EB79E605B4D18.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/asleep1_Mat.uasset'
+[2015.12.09-04.48.51:173][415]LogSavePackage: Total save time: 13.147108ms
+[2015.12.09-04.48.51:173][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/asleep1_Mat.uasset
+[2015.12.09-04.48.51:189][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Custom_Props/behind1" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/behind1.uasset" SILENT=true
+[2015.12.09-04.48.51:217][415]LogSavePackage: Save=26.855381ms
+[2015.12.09-04.48.51:217][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/behind10338B2AB46EDDBABE3FD3DB70E360CE8.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/behind1.uasset'
+[2015.12.09-04.48.51:218][415]LogSavePackage: Total save time: 28.892349ms
+[2015.12.09-04.48.51:218][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/behind1.uasset
+[2015.12.09-04.48.51:256][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Custom_Props/behind1_Mat" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/behind1_Mat.uasset" SILENT=true
+[2015.12.09-04.48.51:268][415]LogSavePackage: Save=10.567104ms
+[2015.12.09-04.48.51:268][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/behind1_MatFBEE865944AF30D3B6CE109B61AB22C6.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/behind1_Mat.uasset'
+[2015.12.09-04.48.51:270][415]LogSavePackage: Total save time: 13.422567ms
+[2015.12.09-04.48.51:270][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/behind1_Mat.uasset
+[2015.12.09-04.48.51:285][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Custom_Props/creepypic1" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic1.uasset" SILENT=true
+[2015.12.09-04.48.52:262][415]LogSavePackage: Save=975.896423ms
+[2015.12.09-04.48.52:262][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/creepypic15DB828CA4B874B3926DD40AF4F298A07.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic1.uasset'
+[2015.12.09-04.48.52:264][415]LogSavePackage: Total save time: 978.228968ms
+[2015.12.09-04.48.52:264][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic1.uasset
+[2015.12.09-04.48.52:314][415]LogSavePackage: Save=11.894741ms
+[2015.12.09-04.48.52:314][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/creepypic1_Mat0B6DCF1A44A71F72C847C698545663EC.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic1_Mat.uasset'
+[2015.12.09-04.48.52:316][415]LogSavePackage: Total save time: 14.396720ms
+[2015.12.09-04.48.52:316][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic1_Mat.uasset
+[2015.12.09-04.48.52:333][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Custom_Props/creepypic2" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic2.uasset" SILENT=true
+[2015.12.09-04.48.52:374][415]LogSavePackage: Save=40.236965ms
+[2015.12.09-04.48.52:374][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/creepypic2DCAE864A48BDB101F219A29114701B0C.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic2.uasset'
+[2015.12.09-04.48.52:376][415]LogSavePackage: Total save time: 42.332653ms
+[2015.12.09-04.48.52:376][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic2.uasset
+[2015.12.09-04.48.52:427][415]LogSavePackage: Save=12.155619ms
+[2015.12.09-04.48.52:427][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/creepypic2_Mat2224DBA54F1AA84AA730D69691C6FAA4.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic2_Mat.uasset'
+[2015.12.09-04.48.52:429][415]LogSavePackage: Total save time: 14.488935ms
+[2015.12.09-04.48.52:429][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/creepypic2_Mat.uasset
+[2015.12.09-04.48.52:445][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Custom_Props/curtain_silk" FILE="../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/curtain_silk.uasset" SILENT=true
+[2015.12.09-04.48.52:462][415]LogSavePackage: Save=15.259743ms
+[2015.12.09-04.48.52:462][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/curtain_silk3FD74C5847C52CD0D46009844B3C1946.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/curtain_silk.uasset'
+[2015.12.09-04.48.52:464][415]LogSavePackage: Total save time: 17.580841ms
+[2015.12.09-04.48.52:464][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/curtain_silk.uasset
+[2015.12.09-04.48.52:513][415]LogSavePackage: Save=10.457158ms
+[2015.12.09-04.48.52:513][415]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/WhosThere/Saved/curtain_silk_Mat4AA77D3B4CAEA8E0569145A331A538D0.tmp' to '../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/curtain_silk_Mat.uasset'
+[2015.12.09-04.48.52:514][415]LogSavePackage: Total save time: 12.448810ms
+[2015.12.09-04.48.52:514][415]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/WhosThere/Content/ThirdPersonBP/Custom_Props/curtain_silk_Mat.uasset
+[2015.12.09-04.48.52:751][415]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.09-04.48.52:751][415]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.09-04.48.53:122][416]Cmd: QUIT_EDITOR
+[2015.12.09-04.48.53:537][416]LogExit: Preparing to exit.
+[2015.12.09-04.48.54:626][416]LogExit: Editor shut down
+[2015.12.09-04.48.54:626][416]LogExit: Transaction tracking system shut down
+[2015.12.09-04.48.54:662][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000181747009A0
+[2015.12.09-04.48.54:666][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001817FF29F80
+[2015.12.09-04.48.54:666][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001817FD75620
+[2015.12.09-04.48.54:666][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018100CA79C0
+[2015.12.09-04.48.54:667][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018100CA7B00
+[2015.12.09-04.48.54:667][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000181CC2DC720
+[2015.12.09-04.48.54:667][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018149226E80
+[2015.12.09-04.48.55:023][416]LogExit: Object subsystem successfully closed.
+[2015.12.09-04.48.55:070][416]LogD3D11RHI: Shutdown
+[2015.12.09-04.48.55:070][416]LogD3D11RHI: CleanupD3DDevice
+[2015.12.09-04.48.55:285][416]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.09-04.48.55:328][416]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.12.09-04.48.55:328][416]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (198)
+[2015.12.09-04.48.55:328][416]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.12.09-04.48.55:328][416]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.12.09-04.48.55:328][416]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.12.09-04.48.55:328][416]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.12.09-04.48.55:328][416]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.12.09-04.48.55:332][416]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.12.09-04.48.55:332][416]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.12.09-04.48.55:332][416]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.12.09-04.48.55:334][416]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.12.09-04.48.55:334][416]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.12.09-04.48.55:336][416]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.12.09-04.48.55:338][416]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.12.09-04.48.55:338][416]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.12.09-04.48.55:339][416]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.12.09-04.48.55:339][416]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.12.09-04.48.55:339][416]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.12.09-04.48.55:339][416]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.12.09-04.48.55:436][416]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.12.09-04.48.55:436][416]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.12.09-04.48.55:436][416]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.12.09-04.48.55:436][416]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.12.09-04.48.55:437][416]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.12.09-04.48.55:437][416]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.12.09-04.48.55:437][416]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.12.09-04.48.55:437][416]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.12.09-04.48.55:438][416]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.12.09-04.48.55:439][416]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.12.09-04.48.55:439][416]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.12.09-04.48.55:439][416]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.12.09-04.48.55:439][416]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.12.09-04.48.55:439][416]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.12.09-04.48.55:439][416]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.12.09-04.48.55:440][416]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.12.09-04.48.55:440][416]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.12.09-04.48.55:440][416]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.12.09-04.48.55:440][416]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.12.09-04.48.55:441][416]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.12.09-04.48.55:441][416]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.12.09-04.48.55:442][416]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.12.09-04.48.55:443][416]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.12.09-04.48.55:444][416]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.12.09-04.48.55:444][416]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.12.09-04.48.55:444][416]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.12.09-04.48.55:445][416]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.12.09-04.48.55:446][416]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.12.09-04.48.55:446][416]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.12.09-04.48.55:448][416]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.12.09-04.48.55:448][416]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.12.09-04.48.55:449][416]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.12.09-04.48.55:449][416]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.12.09-04.48.55:451][416]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.12.09-04.48.55:451][416]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.12.09-04.48.55:451][416]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.12.09-04.48.55:451][416]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.12.09-04.48.55:451][416]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.12.09-04.48.55:452][416]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.12.09-04.48.55:452][416]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.12.09-04.48.55:452][416]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.12.09-04.48.55:453][416]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.12.09-04.48.55:453][416]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.12.09-04.48.55:453][416]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.12.09-04.48.55:453][416]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.12.09-04.48.55:453][416]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.12.09-04.48.55:453][416]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.12.09-04.48.55:454][416]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.12.09-04.48.55:454][416]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.12.09-04.48.55:454][416]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.12.09-04.48.55:470][416]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.12.09-04.48.55:472][416]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.12.09-04.48.55:472][416]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.12.09-04.48.55:472][416]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.12.09-04.48.55:472][416]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.12.09-04.48.55:472][416]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.12.09-04.48.55:472][416]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.12.09-04.48.55:472][416]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.12.09-04.48.55:495][416]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.12.09-04.48.55:496][416]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.12.09-04.48.55:496][416]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.12.09-04.48.55:496][416]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.12.09-04.48.55:497][416]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.12.09-04.48.55:499][416]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.12.09-04.48.55:499][416]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.12.09-04.48.55:499][416]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.12.09-04.48.55:499][416]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.12.09-04.48.55:499][416]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.12.09-04.48.55:500][416]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.12.09-04.48.55:500][416]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.12.09-04.48.55:500][416]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.12.09-04.48.55:501][416]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.12.09-04.48.55:503][416]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.12.09-04.48.55:503][416]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.12.09-04.48.55:504][416]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.12.09-04.48.55:504][416]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.12.09-04.48.55:504][416]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.12.09-04.48.55:504][416]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.12.09-04.48.55:505][416]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.12.09-04.48.55:505][416]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.12.09-04.48.55:506][416]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.12.09-04.48.55:506][416]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.12.09-04.48.55:507][416]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.12.09-04.48.55:509][416]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.12.09-04.48.55:657][416]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.12.09-04.48.55:658][416]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.12.09-04.48.55:668][416]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.12.09-04.48.55:769][416]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.12.09-04.48.55:769][416]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.12.09-04.48.55:769][416]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.12.09-04.48.55:775][416]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.12.09-04.48.55:775][416]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.12.09-04.48.55:775][416]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.12.09-04.48.55:775][416]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.12.09-04.48.55:775][416]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.12.09-04.48.55:775][416]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.12.09-04.48.55:776][416]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.12.09-04.48.55:776][416]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.12.09-04.48.55:777][416]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.12.09-04.48.55:777][416]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.12.09-04.48.55:777][416]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.12.09-04.48.55:778][416]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.12.09-04.48.55:780][416]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.12.09-04.48.55:782][416]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.12.09-04.48.55:782][416]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.12.09-04.48.55:782][416]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.12.09-04.48.55:784][416]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.12.09-04.48.55:789][416]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.12.09-04.48.55:813][416]LogDerivedDataCache: Shutdown
+[2015.12.09-04.48.55:813][416]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.12.09-04.48.55:813][416]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.12.09-04.48.55:813][416]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.12.09-04.48.55:814][416]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.12.09-04.48.55:815][416]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.12.09-04.48.55:815][416]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.12.09-04.48.55:815][416]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.12.09-04.48.55:815][416]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.12.09-04.48.55:815][416]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.12.09-04.48.55:815][416]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.12.09-04.48.55:816][416]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.12.09-04.48.55:816][416]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.12.09-04.48.55:816][416]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.12.09-04.48.55:817][416]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.12.09-04.48.55:817][416]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.12.09-04.48.55:817][416]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.12.09-04.48.55:817][416]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.12.09-04.48.55:817][416]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.12.09-04.48.55:818][416]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.12.09-04.48.55:818][416]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.12.09-04.48.55:818][416]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.12.09-04.48.55:818][416]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.12.09-04.48.55:818][416]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.12.09-04.48.55:818][416]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.12.09-04.48.55:818][416]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.12.09-04.48.57:821][416]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.12.09-04.48.57:827][416]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.09-04.48.57:827][416]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.09-04.48.57:827][416]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.09-04.48.57:827][416]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.09-04.48.57:828][416]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.09-04.48.57:838][416]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.09-04.48.57:840][416]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.09-04.48.57:840][416]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.09-04.48.57:840][416]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.09-04.48.57:840][416]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.09-04.48.57:840][416]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.09-04.48.57:840][416]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.09-04.48.57:840][416]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.09-04.48.57:841][416]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.09-04.48.57:841][416]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.09-04.48.57:844][416]LogExit: Exiting.
+[2015.12.09-04.48.57:899][416]Log file closed, 12/08/15 23:48:57
